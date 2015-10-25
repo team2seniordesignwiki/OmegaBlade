@@ -625,6 +625,7 @@ strong {
 
 .wrapperTD {
   max-width: 900px;
+  min-width: 700px;
   position: absolute;
   padding: 0px;
   margin-top: 50px;
