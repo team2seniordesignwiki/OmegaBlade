@@ -149,6 +149,7 @@ textarea {
  */
 body {
   margin: 0;
+  text-align: center;
 }
 
 /* =============================================================================
@@ -604,23 +605,24 @@ strong {
   font-weight: normal;
 }
 
-
+/*
 .wrapper {
   max-width: 650px;
   margin: 0 auto;
   position: relative;
   padding: 0px;
 }
-
-
-/*Modified wrapper for content body
-.wrapper {
-  width: 80%;
-  margin: auto;
-  position: relative;
-  padding: 50px;
-}
 */
+
+/*Modified wrapper for content body*/
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px;
+  margin-top: 120px;
+}
+
 
 section img {
   max-width: 100%;
@@ -691,6 +693,8 @@ td {
   border-bottom: 1px solid #434343;
 }
 
+
+
 hr {
   border: 0;
   outline: none;
@@ -699,12 +703,15 @@ hr {
   margin: 0 0 20px;
 }
 
+
+
 dt {
   color: #F0E7D5;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
 
+/*
 #header {
   z-index: 100;
   left: 0;
@@ -719,8 +726,43 @@ dt {
   -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
+*/
 
 
+#header {
+  z-index: 100;
+  left: 0;
+  top: 0px;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  background: url(../images/nav-bg.gif) #353535;
+  border-bottom: 4px solid #434343;
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+#header h1 {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10 0 0 0px;
+  padding: 10 0 0 0px;
+}
+
+#header p {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+  margin: 0 0 0 0px;
+  padding: 0 0 0 0px;
+}
+
+/*
 #header nav {
   max-width: 650px;
   margin: 0 auto;
@@ -728,28 +770,29 @@ dt {
   background: blue;
   margin: 6px auto;
 }
-
-
-
-/*Modified header nav section to adjust content body sizing
-#header nav {
-  width: 80%;
-  margin: auto;
-  position: relative;
-  padding: 50px;
-}
 */
+
+
+/*Modified header nav section to adjust content body sizing*/
+#header nav {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: none;
+  margin: 6px auto;
+}
+
 
 
 
 #header nav li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   list-style: none;
   display: inline;
   color: white;
   line-height: 50px;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 /*
@@ -817,12 +860,12 @@ dt {
 #header nav li a {
   color: white;
   border: 1px solid #E65C00;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FF6600), color-stop(100%, #FF7519));
-  background: -webkit-linear-gradient(#FF6600, #FF7519);
-  background: -moz-linear-gradient(#FF6600, #FF7519);
-  background: -o-linear-gradient(#FF6600, #FF7519);
-  background: -ms-linear-gradient(#FF6600, #FF7519);
-  background: linear-gradient(#FF6600, #FF7519);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FF6600), color-stop(100%, #E65C00));
+  background: -webkit-linear-gradient(#FF6600, #E65C00);
+  background: -moz-linear-gradient(#FF6600, #E65C00);
+  background: -o-linear-gradient(#FF6600, #E65C00);
+  background: -ms-linear-gradient(#FF6600, #E65C00);
+  background: linear-gradient(#FF6600, #E65C00);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -840,6 +883,7 @@ dt {
   font-size: 14px;
   display: inline-block;
   text-align: center;
+  font-weight: bold;
 }
 
 /*
@@ -878,37 +922,80 @@ dt {
 
 
 #header nav li.fork {
-  float: left;
+  /*float: left;*/
+  /*margin: 0 auto;
   margin-left: 0px;
+  margin-top: 0px;/*custom*/
 }
-#header nav li.downloads {
-  float: right;
+#header nav li.menu {
+  /*float: right;
   margin-left: 6px;
+  margin-top: 0px;/*custom*/
 }
+/*
 #header nav li.title {
   float: right;
   margin-right: 10px;
   font-size: 11px;
+  margin-top: 90px; /*custom*/
 }
+*/*/
 
+/*custom*/
+/*
+#header nav h1.omegaTitle {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 36px;
+  position: fixed;
+}
+*/
+/*custom*/
+/*
+#header nav p.omegaSubtitle {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 36px;
+  position: fixed;
+}
+*/
+
+
+/*
 section {
   max-width: 650px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
 }
+*/
+
+section {
+  max-width: 900px;
+  padding: 30px 0px 50px 0px;
+  margin: 200px 0;
+}
+
+
 section #title {
   border: 0;
   outline: none;
+  margin-top: 50px;
   margin: 0 0 50px 0;
   padding: 0 0 5px 0;
 }
+/*
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 36px;
+  margin-top: 50px;
 }
 section #title p {
   color: #d7cfbe;
@@ -917,6 +1004,7 @@ section #title p {
   font-size: 18px;
   text-align: center;
 }
+*/
 section #title .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -947,6 +1035,7 @@ section #title .credits.right {
     display: block;
   }
 }
+
 @media print, screen and (max-width: 480px) {
   #header {
     margin-top: -20px;
