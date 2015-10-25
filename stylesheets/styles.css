@@ -1140,7 +1140,7 @@ section #title .credits.right {
   text-transform: uppercase;
   text-shadow: 0 1px 0 #363636;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 400;
   /* Background & effects */
 
   background: #E65C00;
@@ -1218,7 +1218,7 @@ section #title .credits.right {
   transition: opacity 0.3s ease-in;
 }
 #tDocMenu > ul ul li a {
-  font-size: 12px;
+  font-size: 14px;
 }
 /* Showing the submenu when the user is hovering the parent link */
 #tDocMenu > ul li:hover > ul {
