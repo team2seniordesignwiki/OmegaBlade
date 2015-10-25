@@ -1,0 +1,24 @@
+Parts List for Power:
+Quantity of 4 for all parts (except speaker - only 1).
+
+LiPo Battery
+http://www.amazon.com/Quantity-Walkera-Battery-1600mAh-Rechargeable/dp/B00P4VMIIM/ref=sr_1_17?ie=UTF8&qid=1444188793&sr=8-17&keywords=walkera+1600mah+battery
+http://hobbyking.com/hobbyking/store/__57282__Walkera_3_7V_1600mAh_LiPoly_Replacement_Battery_for_QR_Y100.html
+
+USB Charger Board
+https://www.sparkfun.com/products/10401
+
+LiPo Protection Circuit
+http://www.batteryjunction.com/tenergy-pcb-3v7-rnd-32002.html
+
+DC-DC Voltage "Boost" Regulator
+https://www.pololu.com/product/2564
+
+Power ON Rocker Switch
+http://www.digikey.com/product-detail/en/PRK22J5DBBNN/CH865-ND/1083858
+
+Momentary Starter Switch
+http://www.digikey.com/product-detail/en/PS1024ARED/EG2015-ND/44577
+
+Knowles SC-Cobra Speaker (I know this is part of the audio but since I found the model, I figured I should mention it again.)
+http://www.digikey.com/product-detail/en/2403%20260%2000091/423-1201-ND/4376275

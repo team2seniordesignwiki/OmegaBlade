@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetPIC_17 Pin=USART-1
+Removed Pin From Net: NetName=NetPIC_18 Pin=USART-2
+Removed Member From Class: ClassName=PIC_Prototyping_Schematic Member=USART
+Added Component: Designator=UART(HDR1X3)
+Added Pin To Net: NetName=NetPIC_17 Pin=UART-1
+Added Pin To Net: NetName=NetPIC_18 Pin=UART-2
+Added Pin To Net: NetName=NetICSP_1 Pin=UART-3
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component UART Header 3

@@ -1,0 +1,16 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Free Documents]
+   Generated File[PCB_Copper_Signal_Top.gbr]
+   Generated File[PCB_Copper_Signal_Bot.gbr]
+   Generated File[PCB_Profile.gbr]
+   Generated File[PCB_PTH_Drill.gbr]
+   Generated File[PCB.RUL]
+   Generated File[PCB.EXTREP]
+   Generated File[PCB.REP]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 3:46:33 PM On 10/18/2015

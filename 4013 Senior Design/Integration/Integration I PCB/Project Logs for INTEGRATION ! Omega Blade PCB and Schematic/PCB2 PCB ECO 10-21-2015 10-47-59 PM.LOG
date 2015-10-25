@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=Swing NewDesignator=TriggerSwing
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=RegPWRout-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=Regulator-1

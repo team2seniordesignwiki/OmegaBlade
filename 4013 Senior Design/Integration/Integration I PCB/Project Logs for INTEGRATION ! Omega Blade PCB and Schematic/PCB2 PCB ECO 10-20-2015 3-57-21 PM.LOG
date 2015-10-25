@@ -1,0 +1,280 @@
+Added Component: Designator=Accelerometer(HDR1X6)
+Added Component: Designator=AccGND(PIN1)
+Added Component: Designator=AccPWR(PIN1)
+Added Component: Designator=AccX(PIN1)
+Added Component: Designator=AccY(PIN1)
+Added Component: Designator=AccZ(PIN1)
+Added Component: Designator=AudioGND(PIN1)
+Added Component: Designator=AudioPWRGND(HDR1X2)
+Added Component: Designator=AudioPWR(PIN1)
+Added Component: Designator=AudioTrig1(PIN1)
+Added Component: Designator=AudioTrig2(PIN1)
+Added Component: Designator=AudioTrigs(HDR1X2)
+Added Component: Designator=Battery(HDR1X2)
+Added Component: Designator=Blu(PIN1)
+Added Component: Designator=DecouplingCap(CAPC0805(2012)75_L)
+Added Component: Designator=Gnd(PIN1)
+Added Component: Designator=Grn(PIN1)
+Added Component: Designator=IR1(HDR1X3)
+Added Component: Designator=IR2(HDR1X3)
+Added Component: Designator=IR3(HDR1X3)
+Added Component: Designator=IR4(HDR1X3)
+Added Component: Designator=IRinGND(PIN1)
+Added Component: Designator=IRinGND(PIN1)
+Added Component: Designator=IRinPIC(PIN1)
+Added Component: Designator=IRinPWR(PIN1)
+Added Component: Designator=IRinPWR(PIN1)
+Added Component: Designator=IRin(PIN1)
+Added Component: Designator=IR LED 1(HDR1X2)
+Added Component: Designator=IR LED 2(HDR1X2)
+Added Component: Designator=IR LED 3(HDR1X2)
+Added Component: Designator=IRoutD1(DIOD-SOD323-2_V)
+Added Component: Designator=IRoutD2(DIOD-SOD323-2_V)
+Added Component: Designator=IRoutR1(RESC1206(3216)_N)
+Added Component: Designator=IRoutR2(RESC1206(3216)_N)
+Added Component: Designator=IRoutTrans(INF-SOT89_SC-62_M)
+Added Component: Designator=LEDstrip(HDR1X4)
+Added Component: Designator=NAND(D014_M)
+Added Component: Designator=PIC2AccelGND(PIN1)
+Added Component: Designator=PIC2AccelPWR(PIN1)
+Added Component: Designator=PIC2AccX(PIN1)
+Added Component: Designator=PIC2AccY(PIN1)
+Added Component: Designator=PIC2AccZ(PIN1)
+Added Component: Designator=PIC2AudioGND(PIN1)
+Added Component: Designator=PIC2AudioPWR(PIN1)
+Added Component: Designator=PIC2AudTrig1(PIN1)
+Added Component: Designator=PIC2AudTrig2(PIN1)
+Added Component: Designator=PIC2BLU(PIN1)
+Added Component: Designator=PIC2ConnGND(PIN1)
+Added Component: Designator=PIC2ConnIn(PIN1)
+Added Component: Designator=PIC2ConnPWR(PIN1)
+Added Component: Designator=PIC2GND(PIN1)
+Added Component: Designator=PIC2GND(PIN1)
+Added Component: Designator=PIC2GRN(PIN1)
+Added Component: Designator=PIC2HPGND(PIN1)
+Added Component: Designator=PIC2HPPWR(PIN1)
+Added Component: Designator=PIC2IRinGND(PIN1)
+Added Component: Designator=PIC2IRinPWR(PIN1)
+Added Component: Designator=PIC2IRin(PIN1)
+Added Component: Designator=PIC2IRoutGND(PIN1)
+Added Component: Designator=PIC2IRoutPWR(PIN1)
+Added Component: Designator=PIC2PWR(PIN1)
+Added Component: Designator=PIC2PWR(PIN1)
+Added Component: Designator=PIC2RED(PIN1)
+Added Component: Designator=PIC2StripClk(PIN1)
+Added Component: Designator=PIC2StripData(PIN1)
+Added Component: Designator=PIC2StripGND(PIN1)
+Added Component: Designator=PIC2StripPWR(PIN1)
+Added Component: Designator=Protection(DO-35)
+Added Component: Designator=Red(PIN1)
+Added Component: Designator=RegGNDout(PIN1)
+Added Component: Designator=RegPWRout(PIN1)
+Added Component: Designator=Regulator(HDR1X3)
+Added Component: Designator=Reprogrammer(HDR1X5)
+Added Component: Designator=ResetButton(SPST-2)
+Added Component: Designator=RGB Health LED(HDR1X4)
+Added Component: Designator=Rprot(RESC1206(3216)_N)
+Added Component: Designator=StripCLK(PIN1)
+Added Component: Designator=StripDAT(PIN1)
+Added Component: Designator=StripGND(PIN1)
+Added Component: Designator=StripPWR(PIN1)
+Added Component: Designator=U?(SPDIP300-SP28)
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=Accelerometer-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=AccPWR-1
+Added Net: Name=NetAccelerometer_1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=Accelerometer-2
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=AccGND-1
+Added Net: Name=NetAccelerometer_2
+Added Pin To Net: NetName=NetAccelerometer_4 Pin=Accelerometer-4
+Added Pin To Net: NetName=NetAccelerometer_4 Pin=AccX-1
+Added Net: Name=NetAccelerometer_4
+Added Pin To Net: NetName=NetAccelerometer_5 Pin=Accelerometer-5
+Added Pin To Net: NetName=NetAccelerometer_5 Pin=AccY-1
+Added Net: Name=NetAccelerometer_5
+Added Pin To Net: NetName=NetAccelerometer_6 Pin=Accelerometer-6
+Added Pin To Net: NetName=NetAccelerometer_6 Pin=AccZ-1
+Added Net: Name=NetAccelerometer_6
+Added Pin To Net: NetName=NetAudioGND_1 Pin=AudioGND-1
+Added Pin To Net: NetName=NetAudioGND_1 Pin=AudioPWRGND-2
+Added Net: Name=NetAudioGND_1
+Added Pin To Net: NetName=NetAudioPWR_1 Pin=AudioPWR-1
+Added Pin To Net: NetName=NetAudioPWR_1 Pin=AudioPWRGND-1
+Added Net: Name=NetAudioPWR_1
+Added Pin To Net: NetName=NetAudioTrig1_1 Pin=AudioTrig1-1
+Added Pin To Net: NetName=NetAudioTrig1_1 Pin=AudioTrigs-1
+Added Net: Name=NetAudioTrig1_1
+Added Pin To Net: NetName=NetAudioTrig2_1 Pin=AudioTrig2-1
+Added Pin To Net: NetName=NetAudioTrig2_1 Pin=AudioTrigs-2
+Added Net: Name=NetAudioTrig2_1
+Added Pin To Net: NetName=NetBattery_1 Pin=Battery-1
+Added Pin To Net: NetName=NetBattery_1 Pin=Regulator-3
+Added Net: Name=NetBattery_1
+Added Pin To Net: NetName=NetBattery_2 Pin=Battery-2
+Added Pin To Net: NetName=NetBattery_2 Pin=RegGNDout-1
+Added Pin To Net: NetName=NetBattery_2 Pin=Regulator-2
+Added Net: Name=NetBattery_2
+Added Pin To Net: NetName=NetBlu_1 Pin=Blu-1
+Added Pin To Net: NetName=NetBlu_1 Pin=RGB Health LED-3
+Added Net: Name=NetBlu_1
+Added Pin To Net: NetName=NetDecouplingCap_1 Pin=DecouplingCap-1
+Added Pin To Net: NetName=NetDecouplingCap_1 Pin=PIC2PWR-1
+Added Pin To Net: NetName=NetDecouplingCap_1 Pin=U?-20
+Added Net: Name=NetDecouplingCap_1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=DecouplingCap-2
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2AccelGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2AudioGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2ConnGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2GND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2GND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2HPGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2IRinGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2IRoutGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=PIC2StripGND-1
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=Reprogrammer-3
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=ResetButton-2
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=U?-8
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=U?-19
+Added Net: Name=NetDecouplingCap_2
+Added Pin To Net: NetName=NetGnd_1 Pin=Gnd-1
+Added Pin To Net: NetName=NetGnd_1 Pin=RGB Health LED-2
+Added Net: Name=NetGnd_1
+Added Pin To Net: NetName=NetGrn_1 Pin=Grn-1
+Added Pin To Net: NetName=NetGrn_1 Pin=RGB Health LED-4
+Added Net: Name=NetGrn_1
+Added Pin To Net: NetName=NetIR1_1 Pin=IR1-1
+Added Pin To Net: NetName=NetIR1_1 Pin=NAND-5
+Added Net: Name=NetIR1_1
+Added Pin To Net: NetName=NetIR1_2 Pin=IR1-2
+Added Pin To Net: NetName=NetIR1_2 Pin=IR2-2
+Added Pin To Net: NetName=NetIR1_2 Pin=IR3-2
+Added Pin To Net: NetName=NetIR1_2 Pin=IR4-2
+Added Pin To Net: NetName=NetIR1_2 Pin=IRinGND-1
+Added Pin To Net: NetName=NetIR1_2 Pin=NAND-7
+Added Net: Name=NetIR1_2
+Added Pin To Net: NetName=NetIR1_3 Pin=IR1-3
+Added Pin To Net: NetName=NetIR1_3 Pin=IR2-3
+Added Pin To Net: NetName=NetIR1_3 Pin=IR3-3
+Added Pin To Net: NetName=NetIR1_3 Pin=IR4-3
+Added Pin To Net: NetName=NetIR1_3 Pin=IRinPWR-1
+Added Pin To Net: NetName=NetIR1_3 Pin=NAND-14
+Added Net: Name=NetIR1_3
+Added Pin To Net: NetName=NetIR2_1 Pin=IR2-1
+Added Pin To Net: NetName=NetIR2_1 Pin=NAND-4
+Added Net: Name=NetIR2_1
+Added Pin To Net: NetName=NetIR3_1 Pin=IR3-1
+Added Pin To Net: NetName=NetIR3_1 Pin=NAND-2
+Added Net: Name=NetIR3_1
+Added Pin To Net: NetName=NetIR4_1 Pin=IR4-1
+Added Pin To Net: NetName=NetIR4_1 Pin=NAND-1
+Added Net: Name=NetIR4_1
+Added Pin To Net: NetName=NetIRin_1 Pin=IRin-1
+Added Pin To Net: NetName=NetIRin_1 Pin=NAND-6
+Added Net: Name=NetIRin_1
+Added Pin To Net: NetName=NetIRinGND_1 Pin=IRinGND-1
+Added Pin To Net: NetName=NetIRinGND_1 Pin=IRoutD2-2
+Added Pin To Net: NetName=NetIRinGND_1 Pin=IRoutR1-1
+Added Net: Name=NetIRinGND_1
+Added Pin To Net: NetName=NetIRinPIC_1 Pin=IRinPIC-1
+Added Pin To Net: NetName=NetIRinPIC_1 Pin=IRoutR2-2
+Added Net: Name=NetIRinPIC_1
+Added Pin To Net: NetName=NetIRinPWR_1 Pin=IRinPWR-1
+Added Pin To Net: NetName=NetIRinPWR_1 Pin=IR LED 3-1
+Added Net: Name=NetIRinPWR_1
+Added Pin To Net: NetName=NetIR LED 1_1 Pin=IR LED 1-1
+Added Pin To Net: NetName=NetIR LED 1_1 Pin=IR LED 2-2
+Added Net: Name=NetIR LED 1_1
+Added Pin To Net: NetName=NetIR LED 1_2 Pin=IR LED 1-2
+Added Pin To Net: NetName=NetIR LED 1_2 Pin=IRoutTrans-2
+Added Net: Name=NetIR LED 1_2
+Added Pin To Net: NetName=NetIR LED 2_1 Pin=IR LED 2-1
+Added Pin To Net: NetName=NetIR LED 2_1 Pin=IR LED 3-2
+Added Net: Name=NetIR LED 2_1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=IRoutD1-1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=IRoutR2-1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=IRoutTrans-1
+Added Net: Name=NetIRoutD1_1
+Added Pin To Net: NetName=NetIRoutD1_2 Pin=IRoutD1-2
+Added Pin To Net: NetName=NetIRoutD1_2 Pin=IRoutD2-1
+Added Net: Name=NetIRoutD1_2
+Added Pin To Net: NetName=NetIRoutR1_2 Pin=IRoutR1-2
+Added Pin To Net: NetName=NetIRoutR1_2 Pin=IRoutTrans-3
+Added Net: Name=NetIRoutR1_2
+Added Pin To Net: NetName=NetLEDstrip_1 Pin=LEDstrip-1
+Added Pin To Net: NetName=NetLEDstrip_1 Pin=StripPWR-1
+Added Net: Name=NetLEDstrip_1
+Added Pin To Net: NetName=NetLEDstrip_2 Pin=LEDstrip-2
+Added Pin To Net: NetName=NetLEDstrip_2 Pin=StripGND-1
+Added Net: Name=NetLEDstrip_2
+Added Pin To Net: NetName=NetLEDstrip_3 Pin=LEDstrip-3
+Added Pin To Net: NetName=NetLEDstrip_3 Pin=StripDAT-1
+Added Net: Name=NetLEDstrip_3
+Added Pin To Net: NetName=NetLEDstrip_4 Pin=LEDstrip-4
+Added Pin To Net: NetName=NetLEDstrip_4 Pin=StripCLK-1
+Added Net: Name=NetLEDstrip_4
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2AccelPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2AudioPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2ConnPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2HPPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2IRinPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2IRoutPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2PWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2StripPWR-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=Protection-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=Reprogrammer-2
+Added Net: Name=NetPIC2AccelPWR_1
+Added Pin To Net: NetName=NetPIC2AccX_1 Pin=PIC2AccX-1
+Added Pin To Net: NetName=NetPIC2AccX_1 Pin=U?-4
+Added Net: Name=NetPIC2AccX_1
+Added Pin To Net: NetName=NetPIC2AccY_1 Pin=PIC2AccY-1
+Added Pin To Net: NetName=NetPIC2AccY_1 Pin=U?-5
+Added Net: Name=NetPIC2AccY_1
+Added Pin To Net: NetName=NetPIC2AccZ_1 Pin=PIC2AccZ-1
+Added Pin To Net: NetName=NetPIC2AccZ_1 Pin=U?-7
+Added Net: Name=NetPIC2AccZ_1
+Added Pin To Net: NetName=NetPIC2AudTrig1_1 Pin=PIC2AudTrig1-1
+Added Pin To Net: NetName=NetPIC2AudTrig1_1 Pin=U?-24
+Added Net: Name=NetPIC2AudTrig1_1
+Added Pin To Net: NetName=NetPIC2AudTrig2_1 Pin=PIC2AudTrig2-1
+Added Pin To Net: NetName=NetPIC2AudTrig2_1 Pin=U?-23
+Added Net: Name=NetPIC2AudTrig2_1
+Added Pin To Net: NetName=NetPIC2BLU_1 Pin=PIC2BLU-1
+Added Pin To Net: NetName=NetPIC2BLU_1 Pin=U?-17
+Added Net: Name=NetPIC2BLU_1
+Added Pin To Net: NetName=NetPIC2ConnIn_1 Pin=PIC2ConnIn-1
+Added Pin To Net: NetName=NetPIC2ConnIn_1 Pin=U?-3
+Added Net: Name=NetPIC2ConnIn_1
+Added Pin To Net: NetName=NetPIC2GRN_1 Pin=PIC2GRN-1
+Added Pin To Net: NetName=NetPIC2GRN_1 Pin=U?-16
+Added Net: Name=NetPIC2GRN_1
+Added Pin To Net: NetName=NetPIC2IRin_1 Pin=PIC2IRin-1
+Added Pin To Net: NetName=NetPIC2IRin_1 Pin=U?-6
+Added Net: Name=NetPIC2IRin_1
+Added Pin To Net: NetName=NetPIC2RED_1 Pin=PIC2RED-1
+Added Pin To Net: NetName=NetPIC2RED_1 Pin=U?-15
+Added Net: Name=NetPIC2RED_1
+Added Pin To Net: NetName=NetPIC2StripClk_1 Pin=PIC2StripClk-1
+Added Pin To Net: NetName=NetPIC2StripClk_1 Pin=Reprogrammer-4
+Added Pin To Net: NetName=NetPIC2StripClk_1 Pin=U?-28
+Added Net: Name=NetPIC2StripClk_1
+Added Pin To Net: NetName=NetPIC2StripData_1 Pin=PIC2StripData-1
+Added Pin To Net: NetName=NetPIC2StripData_1 Pin=U?-26
+Added Net: Name=NetPIC2StripData_1
+Added Pin To Net: NetName=NetProtection_2 Pin=Protection-2
+Added Pin To Net: NetName=NetProtection_2 Pin=Rprot-2
+Added Net: Name=NetProtection_2
+Added Pin To Net: NetName=NetRed_1 Pin=Red-1
+Added Pin To Net: NetName=NetRed_1 Pin=RGB Health LED-1
+Added Net: Name=NetRed_1
+Added Pin To Net: NetName=NetRegPWRout_1 Pin=RegPWRout-1
+Added Pin To Net: NetName=NetRegPWRout_1 Pin=Regulator-1
+Added Net: Name=NetRegPWRout_1
+Added Pin To Net: NetName=NetReprogrammer_1 Pin=Reprogrammer-1
+Added Pin To Net: NetName=NetReprogrammer_1 Pin=ResetButton-1
+Added Pin To Net: NetName=NetReprogrammer_1 Pin=Rprot-1
+Added Pin To Net: NetName=NetReprogrammer_1 Pin=U?-1
+Added Net: Name=NetReprogrammer_1
+Added Pin To Net: NetName=NetReprogrammer_5 Pin=Reprogrammer-5
+Added Pin To Net: NetName=NetReprogrammer_5 Pin=U?-27
+Added Net: Name=NetReprogrammer_5
+Added Class: Name=Schematic
+Added Room: Name=Schematic

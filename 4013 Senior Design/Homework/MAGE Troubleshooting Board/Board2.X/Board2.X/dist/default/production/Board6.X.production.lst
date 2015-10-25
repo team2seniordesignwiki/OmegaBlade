@@ -1,0 +1,246 @@
+
+
+Microchip Technology PIC18 LITE Macro Assembler V1.20 build 52243 
+                                                                                               Thu Sep 12 13:31:09 2013
+
+Microchip Technology Omniscient Code Generator (Lite mode) build 52243
+     1                           	processor	18F2580
+     2                           	fnconf	rparam,??,?,0
+     3                           	opt	pw 120
+     4                           	opt	lm
+     5                           	psect	text0,global,reloc=2,class=CODE,delta=1
+     6                           	psect	cinit,global,reloc=2,class=CODE,delta=1
+     7                           	psect	cstackCOMRAM,global,class=COMRAM,space=1,delta=1
+     8                           	psect	intsave_regs,global,class=BIGRAM,space=1,delta=1
+     9                           	psect	rparam,global,class=COMRAM,space=1,delta=1
+    10  0000                     _ADCON0	set	4034
+    11  0000                     _ADCON1	set	4033
+    12  0000                     _PORTAbits	set	3968
+    13  0000                     _PORTCbits	set	3970
+    14  0000                     _TRISAbits	set	3986
+    15  0000                     _TRISCbits	set	3988
+    16                           
+    17                           ; 0 bytes @ 0x0
+    18 ;;
+    19 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+    20 ;;
+    21 ;; *************** function _main *****************
+    22 ;; Defined at:
+    23 ;;		line 95 in file "newmain.c"
+    24 ;; Parameters:    Size  Location     Type
+    25 ;;		None
+    26 ;; Auto vars:     Size  Location     Type
+    27 ;;		None
+    28 ;; Return value:  Size  Location     Type
+    29 ;;		None               void
+    30 ;; Registers used:
+    31 ;;		wreg, status,2
+    32 ;; Tracked objects:
+    33 ;;		On entry : 0/0
+    34 ;;		On exit  : 0/0
+    35 ;;		Unchanged: 0/0
+    36 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5
+    37 ;;      Params:         0       0       0       0       0       0       0
+    38 ;;      Locals:         0       0       0       0       0       0       0
+    39 ;;      Temps:          0       0       0       0       0       0       0
+    40 ;;      Totals:         0       0       0       0       0       0       0
+    41 ;;Total ram usage:        0 bytes
+    42 ;; This function calls:
+    43 ;;		Nothing
+    44 ;; This function is called by:
+    45 ;;		Startup code after reset
+    46 ;; This function uses a non-reentrant model
+    47 ;;
+    48                           
+    49                           	psect	text0
+    50  007FE4                     __ptext0:
+    51                           	opt stack 0
+    52                           
+    53                           ; #config settings
+    54  007FE4                     _main:
+    55                           	opt stack 31
+    56                           
+    57                           ;newmain.c: 97: TRISAbits.TRISA0 = 1;
+    58                           
+    59                           ;incstack = 0
+    60                           ;incstack = 0
+    61  007FE4  8092               	bsf	3986,0,c	;volatile
+    62                           
+    63                           ;newmain.c: 98: TRISAbits.TRISA1 = 1;
+    64  007FE6  8292               	bsf	3986,1,c	;volatile
+    65                           
+    66                           ;newmain.c: 99: TRISCbits.TRISC2 = 1;
+    67  007FE8  8494               	bsf	3988,2,c	;volatile
+    68                           
+    69                           ;newmain.c: 100: ADCON0 = 0;
+    70  007FEA  0E00               	movlw	0
+    71  007FEC  6EC2               	movwf	4034,c	;volatile
+    72                           
+    73                           ;newmain.c: 101: ADCON1 = 0x0f;
+    74  007FEE  0E0F               	movlw	15
+    75  007FF0  6EC1               	movwf	4033,c	;volatile
+    76                           
+    77                           ;newmain.c: 103: PORTCbits.RC2 = 1;
+    78  007FF2  8482               	bsf	3970,2,c	;volatile
+    79                           
+    80                           ;newmain.c: 104: PORTAbits.RA0 = 1;
+    81  007FF4  8080               	bsf	3968,0,c	;volatile
+    82                           
+    83                           ;newmain.c: 105: PORTAbits.RA1 = 1;
+    84  007FF6  8280               	bsf	3968,1,c	;volatile
+    85  007FF8                     l604:
+    86                           
+    87                           ;newmain.c: 107: {
+    88                           ;newmain.c: 108: PORTCbits.RC2 = 0;
+    89  007FF8  9482               	bcf	3970,2,c	;volatile
+    90                           
+    91                           ;newmain.c: 109: PORTAbits.RA0 = 0;
+    92  007FFA  9080               	bcf	3968,0,c	;volatile
+    93                           
+    94                           ;newmain.c: 110: PORTAbits.RA1 = 0;
+    95  007FFC  9280               	bcf	3968,1,c	;volatile
+    96  007FFE  D7FC               	goto	l604
+    97  008000                     __end_of_main:
+    98                           	opt stack 0
+    99  0000                     
+   100                           	psect	cinit
+   101  007FDE                     __pcinit:
+   102                           	opt stack 0
+   103  007FDE                     start_initialization:
+   104                           	opt stack 0
+   105  007FDE                     __initialization:
+   106                           	opt stack 0
+   107  007FDE                     end_of_initialization:
+   108                           	opt stack 0
+   109  007FDE                     __end_of__initialization:
+   110                           	opt stack 0
+   111  007FDE  0100               	movlb	0
+   112  007FE0  EFF2  F03F         	goto	_main	;jump to C main() function
+   113                           
+   114                           	psect	cstackCOMRAM
+   115  000000                     __pcstackCOMRAM:
+   116                           	opt stack 0
+   117  000000                     
+   118                           	psect	rparam
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         0
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMRAM           95      0       0
+    BANK0           160      0       0
+    BANK1           256      0       0
+    BANK2           256      0       0
+    BANK3           256      0       0
+    BANK4           256      0       0
+    BANK5           256      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMRAM
+
+    None.
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Critical Paths under _main in BANK3
+
+    None.
+
+Critical Paths under _main in BANK4
+
+    None.
+
+Critical Paths under _main in BANK5
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 0     0      0       0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 0
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMRAM           5F      0       0       0        0.0%
+EEDATA             100      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMRAM              5F      0       0       1        0.0%
+STACK                0      0       0       2        0.0%
+ABS                  0      0       0       3        0.0%
+BITBANK0            A0      0       0       4        0.0%
+BANK0               A0      0       0       5        0.0%
+BITBANK1           100      0       0       6        0.0%
+BANK1              100      0       0       7        0.0%
+BITBANK2           100      0       0       8        0.0%
+BANK2              100      0       0       9        0.0%
+BITBANK3           100      0       0      10        0.0%
+BANK3              100      0       0      11        0.0%
+BITBANK4           100      0       0      12        0.0%
+BANK4              100      0       0      13        0.0%
+BITBANK5           100      0       0      14        0.0%
+BANK5              100      0       0      15        0.0%
+BIGRAM             5FF      0       0      16        0.0%
+DATA                 0      0       0      17        0.0%
+BITSFR_3             0      0       0      40        0.0%
+SFR_3                0      0       0      40        0.0%
+BITSFR_2             0      0       0      40        0.0%
+SFR_2                0      0       0      40        0.0%
+BITSFR_1             0      0       0      40        0.0%
+SFR_1                0      0       0      40        0.0%
+BITSFR               0      0       0      40        0.0%
+SFR                  0      0       0      40        0.0%
+
+
+Microchip Technology PIC18 Macro Assembler V1.20 build 52243 
+Symbol Table                                                                                   Thu Sep 12 13:31:09 2013
+
+            __CFG_BORV$3 000000             __CFG_CP0$OFF 000000             __CFG_CP1$OFF 000000  
+           __CFG_CP2$OFF 000000             __CFG_CP3$OFF 000000              __CFG_LVP$ON 000000  
+                    l604 7FF8             __CFG_CPB$OFF 000000             __CFG_CPD$OFF 000000  
+           __CFG_WDT$OFF 000000                     _main 7FE4                     start 0000  
+          __CFG_IESO$OFF 000000            __CFG_MCLRE$ON 000000            __CFG_OSC$RCIO 000000  
+                  ?_main 0000            __CFG_PWRT$OFF 000000            __CFG_WRT0$OFF 000000  
+          __CFG_WRT1$OFF 000000            __CFG_WRT2$OFF 000000            __CFG_WRT3$OFF 000000  
+         __CFG_EBTR0$OFF 000000           __CFG_FCMEN$OFF 000000           __CFG_EBTR1$OFF 000000  
+         __CFG_EBTR2$OFF 000000           __CFG_EBTR3$OFF 000000            __CFG_WRTB$OFF 000000  
+          __CFG_WRTC$OFF 000000            __CFG_WRTD$OFF 000000           __CFG_EBTRB$OFF 000000  
+         __CFG_PBADEN$ON 000000          __initialization 7FDE             __end_of_main 8000  
+                 ??_main 0000            __activetblptr 000000                   _ADCON0 000FC2  
+                 _ADCON1 000FC1          __CFG_BBSIZ$1024 000000           __CFG_XINST$OFF 000000  
+         __CFG_STVREN$ON 000000          __CFG_BOREN$BOHW 000000               __accesstop 0060  
+__end_of__initialization 7FDE           __pcstackCOMRAM 0000                  __Hparam 0000  
+                __Lparam 0000                  __pcinit 7FDE                  __ramtop 0600  
+                __ptext0 7FE4     end_of_initialization 7FDE                _PORTAbits 000F80  
+              _PORTCbits 000F82                _TRISAbits 000F92                _TRISCbits 000F94  
+    start_initialization 7FDE         __CFG_LPT1OSC$OFF 000000         __CFG_WDTPS$32768 000000  
+               __Hrparam 0000                 __Lrparam 0000            __size_of_main 001C  

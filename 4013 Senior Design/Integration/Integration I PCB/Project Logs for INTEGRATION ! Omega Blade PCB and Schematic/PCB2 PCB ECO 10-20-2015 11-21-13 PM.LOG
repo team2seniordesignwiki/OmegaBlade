@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=PIC2GND-1
+Change Component Designator: OldDesignator=PIC2AccPWR NewDesignator=PIC2AccelPWR

@@ -1,0 +1,470 @@
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Error[121]  : Illegal label (opt)
+                      00001 opt subtitle "HI-TECH Software Omniscient Code Generator (PRO mode) build 10920"
+                      00002 
+Error[122]  : Illegal opcode (pagewidth)
+                      00003 opt pagewidth 120
+                      00004 
+Warning[207]: Found label after column 1. (opt)
+Error[122]  : Illegal opcode (pm)
+                      00005         opt pm
+                      00006 
+                      00007         processor       16F84A
+Warning[204]: Found pseudo-op in column 1. (clrc)
+Warning[211]: Extraneous arguments on the line.
+0000   1003           00008 clrc    macro
+0001   1003           00009         bcf     3,0
+Error[145]  : Unmatched ENDM
+                      00010         endm
+Warning[204]: Found pseudo-op in column 1. (clrz)
+Warning[211]: Extraneous arguments on the line.
+0002   1103           00011 clrz    macro
+0003   1103           00012         bcf     3,2
+Error[145]  : Unmatched ENDM
+                      00013         endm
+Warning[204]: Found pseudo-op in column 1. (setc)
+Warning[211]: Extraneous arguments on the line.
+0004   1403           00014 setc    macro
+0005   1403           00015         bsf     3,0
+Error[145]  : Unmatched ENDM
+                      00016         endm
+Warning[204]: Found pseudo-op in column 1. (setz)
+Warning[211]: Extraneous arguments on the line.
+0006   1503           00017 setz    macro
+0007   1503           00018         bsf     3,2
+Error[145]  : Unmatched ENDM
+                      00019         endm
+                      00020 skipc   macro
+                      00021         btfss   3,0
+                      00022         endm
+                      00023 skipz   macro
+                      00024         btfss   3,2
+                      00025         endm
+                      00026 skipnc  macro
+                      00027         btfsc   3,0
+                      00028         endm
+                      00029 skipnz  macro
+                      00030         btfsc   3,2
+                      00031         endm
+  00000000            00032 indf    equ     0
+  00000000            00033 indf0   equ     0
+  00000002            00034 pc      equ     2
+  00000002            00035 pcl     equ     2
+  00000003            00036 status  equ     3
+  00000004            00037 fsr     equ     4
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  2
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+  00000004            00038 fsr0    equ     4
+  00000001            00039 c       equ     1
+  00000000            00040 z       equ     0
+  00000010            00041 pclath  equ     10
+Error[108]  : Illegal character (1)
+  00000010            00042 # 10 "C:\Users\Saeed\Desktop\PIC16F84A LED Blinking Code\Code\main.c"
+Warning[207]: Found label after column 1. (psect)
+Error[121]  : Illegal label (psect)
+Error[176]  : CONFIG Directive Error:  (processor "16F84A" is invalid for CONFIG directive)
+                      00043         psect config,class=CONFIG,delta=2 ;#
+Error[108]  : Illegal character (1)
+                      00044 # 10 "C:\Users\Saeed\Desktop\PIC16F84A LED Blinking Code\Code\main.c"
+Message[303]: Program word too large.  Truncated to core size. (FFF2)
+0008   3FF2           00045         dw 0xFFFE & 0xFFFB & 0xFFF7 & 0xFFFF ;#
+Warning[207]: Found label after column 1. (FNROOT)
+Error[122]  : Illegal opcode (_main)
+0008   3FF2           00046         FNROOT  _main
+Error[149]  : Directive only allowed when generating an object file
+                      00047         global  _RA0
+Error[122]  : Illegal opcode (maintext)
+                      00048 psect   maintext,global,class=CODE,delta=2
+Warning[205]: Found directive in column 1. (global)
+Error[149]  : Directive only allowed when generating an object file
+                      00049 global __pmaintext
+0009                  00050 __pmaintext:
+  00000040            00051 _RA0    set     40
+Error[149]  : Directive only allowed when generating an object file
+                      00052         global  _TRISA0
+  00001064            00053 _TRISA0 set     1064
+Warning[207]: Found label after column 1. (file)
+Error[108]  : Illegal character (")
+  00001064            00054         file    "LED_Blink.as"
+Warning[207]: Found label after column 1. (line)
+Error[122]  : Illegal opcode (#)
+  00001064            00055         line    #
+Error[122]  : Illegal opcode (cinit)
+  00001064            00056 psect cinit,class=CODE,delta=2
+Warning[205]: Found directive in column 1. (global)
+Error[149]  : Directive only allowed when generating an object file
+                      00057 global start_initialization
+0009                  00058 start_initialization:
+                      00059 
+Error[122]  : Illegal opcode (cinit)
+                      00060 psect cinit,class=CODE,delta=2
+Warning[205]: Found directive in column 1. (global)
+Error[149]  : Directive only allowed when generating an object file
+                      00061 global end_of_initialization
+                      00062 
+                      00063 ;End of C runtime variable initialization code
+                      00064 
+0009                  00065 end_of_initialization:
+Warning[203]: Found opcode in column 1. (clrf)
+0009   0183           00066 clrf status
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  3
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Error[122]  : Illegal opcode (_main)
+0009   0183           00067 ljmp _main      ;jump to C main() function
+Error[122]  : Illegal opcode (cstackBANK0)
+0009   0183           00068 psect   cstackBANK0,class=BANK0,space=1
+Warning[205]: Found directive in column 1. (global)
+Error[149]  : Directive only allowed when generating an object file
+                      00069 global __pcstackBANK0
+000A                  00070 __pcstackBANK0:
+Error[149]  : Directive only allowed when generating an object file
+                      00071         global  ?_main
+000A                  00072 ?_main: ; 0 bytes @ 0x0
+Error[149]  : Directive only allowed when generating an object file
+                      00073         global  ??_main
+000A                  00074 ??_main:        ; 0 bytes @ 0x0
+Warning[207]: Found label after column 1. (ds)
+Error[108]  : Illegal character (3)
+000A                  00075         ds      3
+                      00076 ;;Data sizes: Strings 0, constant 0, data 0, bss 0, persistent 0 stack 0
+                      00077 ;;Auto spaces:   Size  Autos    Used
+                      00078 ;; COMMON           0      0       0
+                      00079 ;; BANK0           66      3       3
+                      00080 
+                      00081 ;;
+                      00082 ;; Pointer list with targets:
+                      00083 
+                      00084 
+                      00085 
+                      00086 ;;
+                      00087 ;; Critical Paths under _main in COMMON
+                      00088 ;;
+                      00089 ;;   None.
+                      00090 ;;
+                      00091 ;; Critical Paths under _main in BANK0
+                      00092 ;;
+                      00093 ;;   None.
+                      00094 
+                      00095 ;;
+                      00096 ;;Main: autosize = 0, tempsize = 3, incstack = 0, save=0
+                      00097 ;;
+                      00098 
+                      00099 ;;
+                      00100 ;;Call Graph Tables:
+                      00101 ;;
+                      00102 ;; ---------------------------------------------------------------------------------
+                      00103 ;; (Depth) Function             Calls       Base Space   Used Autos Params    Refs
+                      00104 ;; ---------------------------------------------------------------------------------
+                      00105 ;; (0) _main                                                 3     3      0       0
+                      00106 ;;                                              0 BANK0      3     3      0
+                      00107 ;; ---------------------------------------------------------------------------------
+                      00108 ;; Estimated maximum stack depth 0
+                      00109 ;; ---------------------------------------------------------------------------------
+                      00110 
+                      00111 ;; Call Graph Graphs:
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  4
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00112 
+                      00113 ;; _main (ROOT)
+                      00114 ;;
+                      00115 
+                      00116 ;; Address spaces:
+                      00117 
+                      00118 ;;Name               Size   Autos  Total    Cost      Usage
+                      00119 ;;BITCOMMON            0      0       0       0        0.0%
+                      00120 ;;EEDATA              40      0       0       0        0.0%
+                      00121 ;;NULL                 0      0       0       0        0.0%
+                      00122 ;;CODE                 0      0       0       0        0.0%
+                      00123 ;;BITSFR0              0      0       0       1        0.0%
+                      00124 ;;SFR0                 0      0       0       1        0.0%
+                      00125 ;;COMMON               0      0       0       1        0.0%
+                      00126 ;;BITSFR1              0      0       0       2        0.0%
+                      00127 ;;SFR1                 0      0       0       2        0.0%
+                      00128 ;;STACK                0      0       0       2        0.0%
+                      00129 ;;BANK0               42      3       3       3        4.5%
+                      00130 ;;ABS                  0      0       0       4        0.0%
+                      00131 ;;BITBANK0            42      0       0       5        0.0%
+                      00132 ;;DATA                 0      0       0       6        0.0%
+                      00133 
+Error[149]  : Directive only allowed when generating an object file
+                      00134         global  _main
+Error[122]  : Illegal opcode (maintext)
+                      00135 psect   maintext
+                      00136 
+                      00137 ;; *************** function _main *****************
+                      00138 ;; Defined at:
+                      00139 ;;              line 23 in file "C:\Users\Saeed\Desktop\PIC16F84A LED Blinking Code\Code\main.c"
+                      00140 ;; Parameters:    Size  Location     Type
+                      00141 ;;              None
+                      00142 ;; Auto vars:     Size  Location     Type
+                      00143 ;;              None
+                      00144 ;; Return value:  Size  Location     Type
+                      00145 ;;              None               void
+                      00146 ;; Registers used:
+                      00147 ;;              wreg
+                      00148 ;; Tracked objects:
+                      00149 ;;              On entry : 17F/0
+                      00150 ;;              On exit  : 20/0
+                      00151 ;;              Unchanged: 0/0
+                      00152 ;; Data sizes:     COMMON   BANK0
+                      00153 ;;      Params:         0       0
+                      00154 ;;      Locals:         0       0
+                      00155 ;;      Temps:          0       3
+                      00156 ;;      Totals:         0       3
+                      00157 ;;Total ram usage:        3 bytes
+                      00158 ;; This function calls:
+                      00159 ;;              Nothing
+                      00160 ;; This function is called by:
+                      00161 ;;              Startup code after reset
+                      00162 ;; This function uses a non-reentrant model
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  5
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00163 ;;
+Error[122]  : Illegal opcode (maintext)
+                      00164 psect   maintext
+Warning[207]: Found label after column 1. (file)
+Error[108]  : Illegal character (")
+                      00165         file    "C:\Users\Saeed\Desktop\PIC16F84A LED Blinking Code\Code\main.c"
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (2)
+                      00166         line    23
+Error[149]  : Directive only allowed when generating an object file
+                      00167         global  __size_of_main
+Warning[207]: Found label after column 1. (__size_of_main)
+Error[115]  : Duplicate label ("__size_of_main" or redefining symbol that cannot be redefined)
+  00000023            00168         __size_of_main  equ     __end_of_main-_main
+                      00169         
+000A                  00170 _main:  
+Warning[207]: Found label after column 1. (opt)
+Error[122]  : Illegal opcode (stack)
+000A                  00171         opt     stack 8
+                      00172 ; Regs used in _main: [wreg]
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (2)
+                      00173         line    24
+                      00174         
+000A                  00175 l761:   
+                      00176 ;main.c: 24: TRISA0 = 0;
+000A   1683           00177         bsf     status, 5       ;RP0=1, select bank1
+Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
+000B   120C           00178         bcf     (1064/8)^080h,(1064)&7
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (2)
+000B   120C           00179         line    25
+                      00180 ;main.c: 25: RA0 = 0;
+000C   1283           00181         bcf     status, 5       ;RP0=0, select bank0
+000D   1008           00182         bcf     (40/8),(40)&7
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (2)
+000D   1008           00183         line    29
+                      00184         
+000E                  00185 l763:   
+                      00186 ;main.c: 28: {
+                      00187 ;main.c: 29: _delay((unsigned long)((500)*(20000000/4000.0)));
+Warning[207]: Found label after column 1. (opt)
+Error[122]  : Illegal opcode (asmopt_off)
+                      00188         opt asmopt_off
+Warning[203]: Found opcode in column 1. (movlw)
+000E   3013           00189 movlw  13
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+000F   0080           00190 movwf   ((??_main+0)+0+2),f
+Warning[203]: Found opcode in column 1. (movlw)
+Warning[202]: Argument out of range.  Least significant bits used.
+0010   3075           00191 movlw   175
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  6
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+0011   0080           00192 movwf   ((??_main+0)+0+1),f
+Warning[202]: Argument out of range.  Least significant bits used.
+0012   3093           00193         movlw   193
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+0013   0080           00194 movwf   ((??_main+0)+0),f
+0014                  00195 u17:
+0014   0B8A           00196         decfsz  ((??_main+0)+0),f
+0015   2814           00197         goto    u17
+0016   0B8B           00198         decfsz  ((??_main+0)+0+1),f
+0017   2814           00199         goto    u17
+0018   0B8C           00200         decfsz  ((??_main+0)+0+2),f
+0019   2814           00201         goto    u17
+001A   0064           00202         clrwdt
+Error[122]  : Illegal opcode (asmopt_on)
+001A   0064           00203 opt asmopt_on
+                      00204 
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (3)
+                      00205         line    30
+                      00206         
+001B                  00207 l765:   
+                      00208 ;main.c: 30: RA0 = 0;
+001B   1283           00209         bcf     status, 5       ;RP0=0, select bank0
+001C   1008           00210         bcf     (40/8),(40)&7
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (3)
+001C   1008           00211         line    31
+                      00212 ;main.c: 31: _delay((unsigned long)((500)*(20000000/4000.0)));
+Warning[207]: Found label after column 1. (opt)
+Error[122]  : Illegal opcode (asmopt_off)
+                      00213         opt asmopt_off
+Warning[203]: Found opcode in column 1. (movlw)
+001D   3013           00214 movlw  13
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+001E   0080           00215 movwf   ((??_main+0)+0+2),f
+Warning[203]: Found opcode in column 1. (movlw)
+Warning[202]: Argument out of range.  Least significant bits used.
+001F   3075           00216 movlw   175
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+0020   0080           00217 movwf   ((??_main+0)+0+1),f
+Warning[202]: Argument out of range.  Least significant bits used.
+0021   3093           00218         movlw   193
+Warning[203]: Found opcode in column 1. (movwf)
+Error[108]  : Illegal character (,)
+0022   0080           00219 movwf   ((??_main+0)+0),f
+0023                  00220 u27:
+0023   0B8A           00221         decfsz  ((??_main+0)+0),f
+0024   2823           00222         goto    u27
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  7
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+0025   0B8B           00223         decfsz  ((??_main+0)+0+1),f
+0026   2823           00224         goto    u27
+0027   0B8C           00225         decfsz  ((??_main+0)+0+2),f
+0028   2823           00226         goto    u27
+0029   0064           00227         clrwdt
+Error[122]  : Illegal opcode (asmopt_on)
+0029   0064           00228 opt asmopt_on
+                      00229 
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (3)
+                      00230         line    32
+                      00231         
+002A                  00232 l767:   
+                      00233 ;main.c: 32: RA0 = 1;
+002A   1283           00234         bcf     status, 5       ;RP0=0, select bank0
+002B   1408           00235         bsf     (40/8),(40)&7
+002C   280E           00236         goto    l763
+Error[149]  : Directive only allowed when generating an object file
+                      00237         global  start
+Warning[207]: Found label after column 1. (ljmp)
+Error[122]  : Illegal opcode (start)
+                      00238         ljmp    start
+Warning[207]: Found label after column 1. (opt)
+Error[122]  : Illegal opcode (stack)
+                      00239         opt stack 0
+Error[122]  : Illegal opcode (maintext)
+                      00240 psect   maintext
+Warning[207]: Found label after column 1. (line)
+Error[108]  : Illegal character (3)
+                      00241         line    34
+Warning[205]: Found directive in column 1. (GLOBAL)
+Error[149]  : Directive only allowed when generating an object file
+                      00242 GLOBAL  __end_of_main
+Warning[207]: Found label after column 1. (__end_of_main)
+002D                  00243         __end_of_main:
+                      00244 ;; =============== function _main ends ============
+                      00245 
+Warning[207]: Found label after column 1. (signat)
+Error[122]  : Illegal opcode (_main)
+                      00246         signat  _main,88
+Error[149]  : Directive only allowed when generating an object file
+                      00247         global  btemp
+Warning[207]: Found label after column 1. (btemp)
+  0000004E            00248         btemp set 04Eh
+                      00249 
+Warning[207]: Found label after column 1. (DABS)
+Error[108]  : Illegal character (1)
+                      00250         DABS    1,78,2  ;btemp
+Error[149]  : Directive only allowed when generating an object file
+                      00251         global  wtemp0
+Warning[207]: Found label after column 1. (wtemp0)
+  0000004E            00252         wtemp0 set btemp
+                      00253         end
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:18:41         PAGE  8
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 10920
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+??_main                           0000000A
+?_main                            0000000A
+_RA0                              00000040
+_TRISA0                           00001064
+__16F84A                          00000001
+__end_of_main                     0000002D
+__pcstackBANK0                    0000000A
+__pmaintext                       00000009
+__size_of_main                    00000000
+_main                             0000000A
+btemp                             0000004E
+c                                 00000001
+end_of_initialization             00000009
+fsr                               00000004
+fsr0                              00000004
+indf                              00000000
+indf0                             00000000
+l761                              0000000A
+l763                              0000000E
+l765                              0000001B
+l767                              0000002A
+pc                                00000002
+pcl                               00000002
+pclath                            00000010
+skipc                             
+skipnc                            
+skipnz                            
+skipz                             
+start_initialization              00000009
+status                            00000003
+u17                               00000014
+u27                               00000023
+wtemp0                            0000004E
+z                                 00000000
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXX--- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    45
+Program Memory Words Free:   979
+
+
+Errors   :    62
+Warnings :    54 reported,     0 suppressed
+Messages :     2 reported,     0 suppressed
+
+

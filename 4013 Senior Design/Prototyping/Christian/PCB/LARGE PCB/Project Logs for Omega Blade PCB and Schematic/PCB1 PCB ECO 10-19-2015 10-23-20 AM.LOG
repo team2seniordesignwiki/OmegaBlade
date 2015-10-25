@@ -1,0 +1,3 @@
+Change Component Comment : Designator=IRoutD1 Old Comment=ZHCS400 New Comment=N4148
+Change Component Comment : Designator=IRoutD2 Old Comment=ZHCS400 New Comment=N4148
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=DecouplingCap-2

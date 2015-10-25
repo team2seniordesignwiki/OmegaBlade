@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetIRout-_1 Pin=IRout--1
+Removed Pin From Net: NetName=NetIRout-_1 Pin=LEDstrip-1
+Change Net Name : Old Net Name=NetIRout-_1 New Net Name=NetReprogrammer_1
+Added Pin To Net: NetName=NetIRout-_1 Pin=IRout--1
+Added Pin To Net: NetName=NetIRout-_1 Pin=LEDstrip-1
+Added Net: Name=NetIRout-_1
+Added Member To Class: ClassName=Schematic Member=Component ResetButton SW-SPST

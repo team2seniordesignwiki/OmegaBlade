@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MCUProject Schema="67" Class="CMCUProject" Path="" PathAbs="" ProjectType="0">
+<ProjectFolders/>
+<ProjectFiles>
+<FileItem>
+<MCUFile Class="CMCUFile" Path="&amp;ASCPrototype.c" PathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\Prototype.c" UseFileOptions="0" FileOptions=""/>
+</FileItem>
+</ProjectFiles>
+<BuildSettings>
+<MCUProjectBuildSettings Class="CMCUProjectBuildSettings" ToolGroupType="1" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\" OutputPath="&amp;ASC.\" OutputPathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\" TargetFileType="6" SimPath="&amp;ASC.\" SimPathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\" SimFile="&amp;ASCPrototype.hex" CodeLoadType="0">
+<Assembler>
+<MCUToolSettings Class="CMCUToolSettings" ToolType="1" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetType="6" IncludeOptions="&amp;ASC#INCLUDE P16F84A.INC" PreFilenameOptions="&amp;ASC /q /c /p16F84A " PostFilenameOptions="">
+<MCULibraries/>
+</MCUToolSettings>
+</Assembler>
+<Linker>
+<MCUToolSettings Class="CMCUToolSettings" ToolType="2" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetType="6" IncludeOptions="" PreFilenameOptions="" PostFilenameOptions="&amp;ASC/mC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\prototype.map /oC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\prototype.out">
+<MCULibraries/>
+</MCUToolSettings>
+</Linker>
+<Library>
+<MCUToolSettings Class="CMCUToolSettings" ToolType="3" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetType="7" IncludeOptions="" PreFilenameOptions="&amp;ASC /c &quot;C:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\prototype\prototype\prototype.lib&quot;" PostFilenameOptions="">
+<MCULibraries/>
+</MCUToolSettings>
+</Library>
+</MCUProjectBuildSettings>
+</BuildSettings>
+</MCUProject>

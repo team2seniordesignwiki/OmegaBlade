@@ -1,0 +1,18 @@
+Interior Blade Dimensions: Width=1 inch, thickness=5/8th inch
+
+Small Blade Length: 10 inches (9 usable)
+Large Blade Length: 15 inches (14 usable)
+
+
+Walkera Battery Dimensions: 78x25x11mm
+
+Sparkfun Charger Dimensions: 29.4x10.8mm
+
+Pololu Regulator Dimensions: 0.35×0.45 inches
+
+Sound Breakout Board - WTV020SD Dimensions: 4x2.1cm
+
+
+
+Possible to mount the sound breakout board and regulator in a stacked configuration or if preferred (at least with
+the larger blade grips) may be mounted with horizontal headers at the ends of the PCB.

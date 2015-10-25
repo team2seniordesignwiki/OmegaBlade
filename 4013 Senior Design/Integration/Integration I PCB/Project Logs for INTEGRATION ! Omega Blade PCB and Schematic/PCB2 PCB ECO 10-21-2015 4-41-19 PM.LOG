@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetConnIn_1 Pin=GammaConn-1
+Removed Pin From Net: NetName=NetConnPWR_1 Pin=GammaConn-3
+Change Component Designator: OldDesignator=Swing NewDesignator=TriggerSwing
+Added Component: Designator=R?(AXIAL-0.3)
+Added Pin To Net: NetName=NetConnPWR_1 Pin=GammaConn-1
+Added Pin To Net: NetName=NetConnIn_1 Pin=GammaConn-3
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=R?-1
+Added Pin To Net: NetName=NetPIC2ConnIn_1 Pin=R?-2
+Added Pin To Net: NetName=NetBetaAlpha_1 Pin=BetaAlpha-1
+Added Pin To Net: NetName=NetBetaAlpha_1 Pin=BetaDelta-3
+Added Net: Name=NetBetaAlpha_1
+Added Pin To Net: NetName=NetBetaAlpha_2 Pin=BetaAlpha-2
+Added Pin To Net: NetName=NetBetaAlpha_2 Pin=BetaDelta-2
+Added Net: Name=NetBetaAlpha_2
+Added Pin To Net: NetName=NetBetaAlpha_3 Pin=BetaAlpha-3
+Added Pin To Net: NetName=NetBetaAlpha_3 Pin=BetaDelta-1
+Added Net: Name=NetBetaAlpha_3
+Added Pin To Net: NetName=NetConnGND_1 Pin=ConnGND-1
+Added Pin To Net: NetName=NetConnGND_1 Pin=GammaConn-2
+Added Net: Name=NetConnGND_1
+Added Pin To Net: NetName=NetDeltaBeta_2 Pin=DeltaBeta-2
+Added Pin To Net: NetName=NetDeltaBeta_2 Pin=DeltaGamma-2
+Added Net: Name=NetDeltaBeta_2
+Added Pin To Net: NetName=NetDeltaBeta_3 Pin=DeltaBeta-3
+Added Pin To Net: NetName=NetDeltaBeta_3 Pin=DeltaGamma-1
+Added Net: Name=NetDeltaBeta_3
+Added Member To Class: ClassName=Schematic Member=Component R? Res1

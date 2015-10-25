@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\Ben\Dropbox\4013 Senior Design\Prototyping\Ben\PIC_Prototyping_PCB\PIC_Prototyping_PCB.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=25.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=15.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

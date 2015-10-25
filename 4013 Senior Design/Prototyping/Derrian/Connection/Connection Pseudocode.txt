@@ -1,0 +1,34 @@
+bool determine_omega_mode_active()
+{
+
+bool ruthere
+if (pin is high)
+{
+ruthere = true
+//IR Receiving Off
+///A B G
+//Shut off IR sending
+///D
+// Send all four packets on IR beam
+///B D 
+// Lower threshold for Accelerometer activation
+//B
+// sound omega
+
+}
+if (pin is low)
+{
+ruthere = false
+//IR Receiving on
+/// For A B G
+//Turn on IR sending
+/// For D
+// send only D’s assigned IR blast
+///For B D
+// Raise threshold for Accelerometer activation
+//B
+//Sound Beta
+}
+
+}
+

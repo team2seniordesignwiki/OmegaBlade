@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=BLU NewDesignator=HPBLUE
+Change Component Designator: OldDesignator=Decoup NewDesignator=DecouplingCap
+Change Component Designator: OldDesignator=GRN NewDesignator=HPGREEN
+Change Component Designator: OldDesignator=RED NewDesignator=HPRED
+Change Component Designator: OldDesignator=Reset NewDesignator=ResetButton
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=Accelerometer-1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=AudioPWRGND-2
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=IRinPWR-1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=IRout--1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=LEDstrip-1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=Protection-1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=Regulator-1
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=U?-20
+Change Net Name : Old Net Name=NetAccelerometer_2 New Net Name=NetAccelerometer_1

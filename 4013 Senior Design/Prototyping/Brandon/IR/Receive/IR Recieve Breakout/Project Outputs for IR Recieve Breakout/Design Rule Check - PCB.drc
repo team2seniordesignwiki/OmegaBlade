@@ -1,0 +1,70 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Brandon\Dropbox\4013 Senior Design\Prototyping\Brandon\IR\Receive\IR Recieve Breakout\PCB.PcbDoc
+Date     : 10/16/2015
+Time     : 11:41:31 PM
+
+Processing Rule : SMD Neck-Down Constraint (Percent=75%) (All)
+Rule Violations :0
+
+Processing Rule : Room Schematic (Bounding Region = (1000mil, 1000mil, 1840mil, 2200mil) (InComponentClass('Schematic'))
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=18mil) (Max=20mil) (Preferred=18mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=25mil) (All),(All)
+   Violation between Pad NAND-14(1696.456mil,1610mil)  Top Layer and 
+                     Pad NAND-13(1696.456mil,1560mil)  Top Layer
+   Violation between Pad NAND-6(1503.544mil,1360mil)  Top Layer and 
+                     Pad NAND-7(1503.544mil,1310mil)  Top Layer
+   Violation between Pad NAND-5(1503.544mil,1410mil)  Top Layer and 
+                     Pad NAND-6(1503.544mil,1360mil)  Top Layer
+   Violation between Pad NAND-4(1503.544mil,1460mil)  Top Layer and 
+                     Pad NAND-5(1503.544mil,1410mil)  Top Layer
+   Violation between Pad NAND-3(1503.544mil,1510mil)  Top Layer and 
+                     Pad NAND-4(1503.544mil,1460mil)  Top Layer
+   Violation between Pad NAND-2(1503.544mil,1560mil)  Top Layer and 
+                     Pad NAND-3(1503.544mil,1510mil)  Top Layer
+   Violation between Pad NAND-1(1503.544mil,1610mil)  Top Layer and 
+                     Pad NAND-2(1503.544mil,1560mil)  Top Layer
+Rule Violations :7
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 7
+Time Elapsed        : 00:00:01

@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=R? NewDesignator=ConnPD
+Change Net Name : Old Net Name=NetPIC2ConnIn_1 New Net Name=NetConnPD_2
+Change Net Name : Old Net Name=NetPIC2GND_1 New Net Name=NetConnPD_1

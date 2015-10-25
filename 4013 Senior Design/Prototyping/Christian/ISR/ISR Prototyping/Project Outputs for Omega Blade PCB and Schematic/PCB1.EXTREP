@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PCB1.GBR   10/15/2015  7:12:13 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Bottom Solder                           
+.gbr                Top Paste                               
+.gbr                Keep-Out Layer                          
+.gbr                Mechanical 7                            
+.gbr                Mechanical 13                           
+.gbr                Mechanical 15                           
+.gbr                Mechanical 1                            
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------

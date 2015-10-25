@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=PIC16F1788 NewDesignator=PIC
+Change Net Name : Old Net Name=NetPIC16F1788_3 New Net Name=NetPIC_3
+Change Net Name : Old Net Name=NetPIC16F1788_25 New Net Name=NetPIC_25
+Change Net Name : Old Net Name=NetPIC16F1788_26 New Net Name=NetPIC_26

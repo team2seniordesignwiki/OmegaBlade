@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=NetR1_1 Pin=R1-1
+Removed Pin From Net: NetName=NetProtection_2 Pin=R1-2
+Removed Member From Class: ClassName=Schematic Member=AudioOut
+Removed Member From Class: ClassName=Schematic Member=R1
+Change Component Footprint: Designator=R? Old Footprint=RESC1206(3216)_L New Footprint=RESC1206(3216)_N
+Added Component: Designator=Accelerometer(HDR1X6)
+Added Component: Designator=AudioPWRGND(HDR1X2)
+Added Component: Designator=AudioTrigs(HDR1X2)
+Added Component: Designator=ConnGND(PIN1)
+Added Component: Designator=ConnIN(PIN1)
+Added Component: Designator=DecouplingCap(CAPC0805(2012)75_L)
+Added Component: Designator=HPBLUE(PIN1)
+Added Component: Designator=HPGND(PIN1)
+Added Component: Designator=HPGREEN(PIN1)
+Added Component: Designator=HPRED(PIN1)
+Added Component: Designator=IRinGND(PIN1)
+Added Component: Designator=IRin(PIN1)
+Added Component: Designator=IRout+(PIN1)
+Added Component: Designator=IRout-(PIN1)
+Added Component: Designator=IRoutD1(DIOD-SOD323-2_V)
+Added Component: Designator=IRoutD2(DIOD-SOD323-2_V)
+Added Component: Designator=IRoutGND(PIN1)
+Added Component: Designator=LEDstrip(HDR1X4)
+Added Component: Designator=Q?(INF-SOT89_SC-62_M)
+Added Component: Designator=R?(RESC1206(3216)_N)
+Added Component: Designator=R?(RESC1206(3216)_N)
+Added Component: Designator=SW?(DIPT-DTSM-6_V)
+Added Pin To Net: NetName=NetProtection_1 Pin=Accelerometer-1
+Added Pin To Net: NetName=NetBattery_2 Pin=Accelerometer-2
+Added Pin To Net: NetName=NetBattery_2 Pin=AudioPWRGND-1
+Added Pin To Net: NetName=NetProtection_1 Pin=AudioPWRGND-2
+Added Pin To Net: NetName=NetBattery_2 Pin=ConnGND-1
+Added Pin To Net: NetName=NetBattery_2 Pin=DecouplingCap-1
+Added Pin To Net: NetName=NetBattery_2 Pin=HPGND-1
+Added Pin To Net: NetName=NetBattery_2 Pin=IRinGND-1
+Added Pin To Net: NetName=NetR1_1 Pin=IRout--1
+Added Pin To Net: NetName=NetBattery_2 Pin=IRoutD2-2
+Added Pin To Net: NetName=NetBattery_2 Pin=IRoutGND-1
+Added Pin To Net: NetName=NetR1_1 Pin=LEDstrip-1
+Added Pin To Net: NetName=NetBattery_2 Pin=LEDstrip-2
+Added Pin To Net: NetName=NetBattery_2 Pin=R?-1
+Added Pin To Net: NetName=NetR1_1 Pin=R?-1
+Added Pin To Net: NetName=NetProtection_2 Pin=R?-2
+Change Net Name : Old Net Name=NetBattery_2 New Net Name=NetAccelerometer_2
+Change Net Name : Old Net Name=NetProtection_1 New Net Name=NetAccelerometer_1
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetIRout-_1
+Added Pin To Net: NetName=NetAudioTrigs_1 Pin=AudioTrigs-1
+Added Pin To Net: NetName=NetAudioTrigs_1 Pin=U?-23
+Added Net: Name=NetAudioTrigs_1
+Added Pin To Net: NetName=NetAudioTrigs_2 Pin=AudioTrigs-2
+Added Pin To Net: NetName=NetAudioTrigs_2 Pin=U?-24
+Added Net: Name=NetAudioTrigs_2
+Added Pin To Net: NetName=NetConnIN_1 Pin=ConnIN-1
+Added Pin To Net: NetName=NetConnIN_1 Pin=U?-3
+Added Net: Name=NetConnIN_1
+Added Pin To Net: NetName=NetHPBLUE_1 Pin=HPBLUE-1
+Added Pin To Net: NetName=NetHPBLUE_1 Pin=U?-17
+Added Net: Name=NetHPBLUE_1
+Added Pin To Net: NetName=NetHPGREEN_1 Pin=HPGREEN-1
+Added Pin To Net: NetName=NetHPGREEN_1 Pin=U?-16
+Added Net: Name=NetHPGREEN_1
+Added Pin To Net: NetName=NetHPRED_1 Pin=HPRED-1
+Added Pin To Net: NetName=NetHPRED_1 Pin=U?-15
+Added Net: Name=NetHPRED_1
+Added Pin To Net: NetName=NetIRin_1 Pin=IRin-1
+Added Pin To Net: NetName=NetIRin_1 Pin=U?-6
+Added Net: Name=NetIRin_1
+Added Pin To Net: NetName=NetIRout+_1 Pin=IRout+-1
+Added Pin To Net: NetName=NetIRout+_1 Pin=Q?-2
+Added Net: Name=NetIRout+_1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=IRoutD1-1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=Q?-1
+Added Pin To Net: NetName=NetIRoutD1_1 Pin=R?-1
+Added Net: Name=NetIRoutD1_1
+Added Pin To Net: NetName=NetIRoutD1_2 Pin=IRoutD1-2
+Added Pin To Net: NetName=NetIRoutD1_2 Pin=IRoutD2-1
+Added Net: Name=NetIRoutD1_2
+Added Pin To Net: NetName=NetLEDstrip_3 Pin=LEDstrip-3
+Added Pin To Net: NetName=NetLEDstrip_3 Pin=Reprogrammer-4
+Added Pin To Net: NetName=NetLEDstrip_3 Pin=U?-27
+Added Net: Name=NetLEDstrip_3
+Added Pin To Net: NetName=NetLEDstrip_4 Pin=LEDstrip-4
+Added Pin To Net: NetName=NetLEDstrip_4 Pin=Reprogrammer-3
+Added Pin To Net: NetName=NetLEDstrip_4 Pin=U?-28
+Added Net: Name=NetLEDstrip_4
+Added Pin To Net: NetName=NetQ?_3 Pin=Q?-3
+Added Pin To Net: NetName=NetQ?_3 Pin=R?-2
+Added Net: Name=NetQ?_3
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U?-14
+Added Net: Name=NetR?_2
+Added Member To Class: ClassName=Schematic Member=Component Accelerometer Header 6
+Added Member To Class: ClassName=Schematic Member=Component AudioPWRGND Header 2
+Added Member To Class: ClassName=Schematic Member=Component AudioTrigs Header 2
+Added Member To Class: ClassName=Schematic Member=Component ConnGND Plug
+Added Member To Class: ClassName=Schematic Member=Component ConnIN Plug
+Added Member To Class: ClassName=Schematic Member=Component DecouplingCap 10uf
+Added Member To Class: ClassName=Schematic Member=Component HPBLUE Plug
+Added Member To Class: ClassName=Schematic Member=Component HPGND Plug
+Added Member To Class: ClassName=Schematic Member=Component HPGREEN Plug
+Added Member To Class: ClassName=Schematic Member=Component HPRED Plug
+Added Member To Class: ClassName=Schematic Member=Component IRinGND Plug
+Added Member To Class: ClassName=Schematic Member=Component IRin Plug
+Added Member To Class: ClassName=Schematic Member=Component IRout+ Plug
+Added Member To Class: ClassName=Schematic Member=Component IRout- Plug
+Added Member To Class: ClassName=Schematic Member=Component IRoutD1 ZHCS400
+Added Member To Class: ClassName=Schematic Member=Component IRoutD2 ZHCS400
+Added Member To Class: ClassName=Schematic Member=Component IRoutGND Plug
+Added Member To Class: ClassName=Schematic Member=Component LEDstrip Header 4
+Added Member To Class: ClassName=Schematic Member=Component Q? BFN18
+Added Member To Class: ClassName=Schematic Member=Component SW? DTSM-61NT/R

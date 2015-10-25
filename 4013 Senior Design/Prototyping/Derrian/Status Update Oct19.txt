@@ -1,0 +1,4 @@
+Currently reasearching input and outputs on Pic pins
+Will upload protype datasheet later tonight
+
+left phone in lab, will get it tomorrow

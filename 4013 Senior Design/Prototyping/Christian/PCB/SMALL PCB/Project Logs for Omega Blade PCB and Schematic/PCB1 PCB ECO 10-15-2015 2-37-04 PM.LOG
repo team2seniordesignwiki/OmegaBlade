@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=Accelerometer-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=ConnPWR-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=IRinPWR-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=IRout--1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=LEDstrip-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=Protection-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=Regulator-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=U?-20
+Change Net Name : Old Net Name=NetAccelerometer_1 New Net Name=NetAccelerometer_2
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=Accelerometer-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=ConnPWR-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=IRinPWR-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=LEDstrip-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=Protection-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=Regulator-1
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=U?-20
+Added Net: Name=NetAccelerometer_1

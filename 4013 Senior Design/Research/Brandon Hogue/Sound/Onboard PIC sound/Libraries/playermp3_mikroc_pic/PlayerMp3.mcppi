@@ -1,0 +1,68 @@
+[DEVICE]
+Name=P18F87J50
+Clock=48000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=PlayerMp3.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[PLDS]
+Count=0
+[BINARIES]
+Count=0
+[FILES]
+Count=4
+File0=PlayerMp3.c
+File1=Mp3.c
+File2=Fat16.c
+File3=Resource.c
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=3
+File0=PlayerMp3.c
+File1=Mp3.c
+File2=Mp3.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=D:\Projets Mikroe\PlayerMp3\
+[HEADER_PATH]
+Count=1
+Path0=D:\Projets Mikroe\PlayerMp3\
+[HEADERS]
+Count=3
+File0=D:\Projets Mikroe\PlayerMp3\Mp3.h
+File1=D:\Projets Mikroe\PlayerMp3\Fat16.h
+File2=D:\Projets Mikroe\PlayerMp3\Resource.h
+[Useses]
+Count=7
+File0=TFT
+File1=TFT_TouchPanel
+File2=SPI
+File3=Mmc
+File4=C_String
+File5=ADC
+File6=Conversions
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Node3=Output Files
+Count=3

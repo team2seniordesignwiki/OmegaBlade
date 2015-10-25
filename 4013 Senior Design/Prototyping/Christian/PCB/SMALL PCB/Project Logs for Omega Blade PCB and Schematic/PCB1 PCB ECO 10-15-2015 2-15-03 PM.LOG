@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=AudioPWRGND-1
+Removed Pin From Net: NetName=NetAccelerometer_1 Pin=AudioPWRGND-2
+Removed Member From Class: ClassName=Schematic Member=AudioPWRGND
+Removed Member From Class: ClassName=Schematic Member=AudioTrigs
+Added Component: Designator=ConnPWR(PIN1)
+Added Pin To Net: NetName=NetAccelerometer_1 Pin=ConnPWR-1
+Added Member To Class: ClassName=Schematic Member=Component ConnPWR Plug

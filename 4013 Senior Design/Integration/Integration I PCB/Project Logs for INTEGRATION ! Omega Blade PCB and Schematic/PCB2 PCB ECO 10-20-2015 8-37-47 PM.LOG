@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetPIC2GRN_1 Pin=U?-16
+Removed Pin From Net: NetName=NetPIC2BLU_1 Pin=U?-17
+Added Pin To Net: NetName=NetPIC2BLU_1 Pin=U?-16
+Added Pin To Net: NetName=NetPIC2GRN_1 Pin=U?-17
+Added Member To Class: ClassName=Schematic Member=Component IRinPWR Plug

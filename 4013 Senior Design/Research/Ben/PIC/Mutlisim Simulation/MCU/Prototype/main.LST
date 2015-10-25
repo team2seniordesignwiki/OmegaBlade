@@ -1,0 +1,82 @@
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:03:01         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 ; FILE: timer1_0.asm - WORKS!
+                      00002 ; AUTH: P.Oh
+                      00003 ; DATE: 1.0 - 04/14/02 16:00
+                      00004 ; DESC: 1.0 - Internal timer, blink LED every 32.8 msec
+                      00005 ; NOTE: Tested on PIC16F84-04/P.  
+                      00006 ;       Page numbers in code are in Easy Pic'n book.
+                      00007 ;       4 MHz crystal yields 1 MHz internal clock frequency.
+                      00008 ;       "option" is set to divide internal clock by 256.
+                      00009 ;       This results in 1 MHz/256 = 3906.25 Hz or 256 usec.
+                      00010 ;       tmr0 bit 7 (128 decimal) is checked, thus yielding
+                      00011 ;       128*256 usec = 32.8 msec delay loop
+                      00012 ; REFs: Easy Pic'n p. 113
+                      00013 
+                      00014         list    p=16F84
+                      00015         radix   hex
+                      00016 
+                      00017 ;----------------------------------------------------------------------
+                      00018 ;       cpu equates (memory map)
+  00000006            00019 portB   equ     0x06            ; (p. 10 defines port address)
+  0000000C            00020 count   equ     0x0c
+  00000001            00021 tmr0    equ     0x01
+                      00022 ;----------------------------------------------------------------------
+                      00023 
+0000                  00024         org     0x000
+0000   0064           00025 start   clrwdt                  ; clear watchdog timer
+0001   30D7           00026         movlw   b'11010111'     ; assign prescaler, internal clock
+                      00027                                 ; and divide by 256 see p. 106
+Warning[224]: Use of this instruction is not recommended.
+0002   0062           00028         option
+0003   3000           00029         movlw   0x00            ; set w = 0
+Warning[224]: Use of this instruction is not recommended.
+0004   0066           00030         tris    portB           ; port B is output
+0005   0186           00031         clrf    portB           ; port B all low
+0006   1406           00032 go      bsf     portB, 0        ; RB0 = 1, thus LED on p. 28
+0007   200B           00033         call    delay
+0008   1006           00034         bcf     portB, 0        ; RB0 = 0, thus LED off
+0009   200B           00035         call    delay
+000A   2806           00036         goto    go              ; repeat forever
+                      00037 
+000B   0181           00038 delay   clrf    tmr0            ; clear TMR0, start counting
+000C   1F81           00039 again   btfss   tmr0, 7         ; if bit 7 = 1
+000D   280C           00040         goto    again           ; no, then check again
+000E   0008           00041         return                  ; else exit delay
+                      00042 
+                      00043         end
+MPASM  5.42                          MAIN.ASM   9-10-2015  23:03:01         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+__16F84A                          00000001
+again                             0000000C
+count                             0000000C
+delay                             0000000B
+go                                00000006
+portB                             00000006
+start                             00000000
+tmr0                              00000001
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXXXXXXXXXXXXX- ---------------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    15
+Program Memory Words Free:  1009
+
+
+Errors   :     0
+Warnings :     2 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

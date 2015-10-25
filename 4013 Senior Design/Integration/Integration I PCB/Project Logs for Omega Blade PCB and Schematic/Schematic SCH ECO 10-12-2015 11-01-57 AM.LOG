@@ -1,0 +1,7 @@
+Change Component Comment: Designator=IRoutR2 Old Comment=6ohms 5% 1206(3216) New Comment=1K 5% 1206(3216)
+Change Component Designator: OldDesignator=IRoutR1 NewDesignator=R?
+Change Component Designator: OldDesignator=IRoutR2 NewDesignator=R?
+Change Component Designator: OldDesignator=IRouttransistor NewDesignator=Q?
+Change Component Designator: OldDesignator=Microcontroller NewDesignator=U?
+Change Component Designator: OldDesignator=ResetButton NewDesignator=SW?
+Change Component Designator: OldDesignator=Rprot NewDesignator=R?

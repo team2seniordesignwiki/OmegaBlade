@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=NetGNDref_1 Pin=Battery-2
+Added Pin To Net: NetName=NetGNDref_1 Pin=RegGNDout-1
+Added Pin To Net: NetName=NetGNDref_1 Pin=Regulator-2
+Change Net Name : Old Net Name=NetGNDref_1 New Net Name=NetBattery_2

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MCUProject Schema="67" Class="CMCUProject" Path="" PathAbs="" ProjectType="0">
+<ProjectFolders/>
+<ProjectFiles>
+<FileItem>
+<MCUFile Class="CMCUFile" Path="&amp;ASCmain.c" PathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\Prototype2\Prototype2\main.c" UseFileOptions="0" FileOptions=""/>
+</FileItem>
+</ProjectFiles>
+<BuildSettings>
+<MCUProjectBuildSettings Class="CMCUProjectBuildSettings" ToolGroupType="2" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\Prototype2\Prototype2\" OutputPath="&amp;ASC.\" OutputPathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\Prototype2\Prototype2\" TargetFileType="6" SimPath="&amp;ASC.\" SimPathAbs="&amp;ASCC:\Users\Brandon\Dropbox\4013 Senior Design\Research\PIC\Mutlisim Simulation\MCU\Prototype\Prototype2\Prototype2\" SimFile="&amp;ASCPrototype2.hex" CodeLoadType="0">
+<Compiler>
+<MCUToolSettings Class="CMCUToolSettings" ToolType="-1" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetType="-1" IncludeOptions="" PreFilenameOptions="&amp;ASC--ASMLIST -G -M -N255 -P --OPT=none --CHIP=16F84A  --ERRFORMAT=&quot;error; file %f; line %l; column %c; %s&quot;  --WARNFORMAT=&quot;warning; file %f; line %l; column %c; %s&quot;  --MSGFORMAT=&quot;message; file %f; line %l; column %c; %s&quot; " PostFilenameOptions="">
+<MCULibraries/>
+</MCUToolSettings>
+</Compiler>
+<Library>
+<MCUToolSettings Class="CMCUToolSettings" ToolType="6" IntermediatePath="&amp;ASC.\" IntermediatePathAbs="" OutputPath="&amp;ASC.\" OutputPathAbs="" TargetType="7" IncludeOptions="" PreFilenameOptions="&amp;ASC r &quot;Prototype2.lib&quot;" PostFilenameOptions="">
+<MCULibraries/>
+</MCUToolSettings>
+</Library>
+</MCUProjectBuildSettings>
+</BuildSettings>
+</MCUProject>

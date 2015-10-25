@@ -1,0 +1,78 @@
+Added Component: Designator=ACCEL(HDR1X3H)
+Added Component: Designator=AUDIO(HDR1X2)
+Added Component: Designator=D1(DO-35)
+Added Component: Designator=HEALTH_LED(HDR1X3H)
+Added Component: Designator=ICSP_HDR(HDR1X5H)
+Added Component: Designator=IR_INOUT(HDR1X2)
+Added Component: Designator=PWR_HDR(HDR1X2H)
+Added Component: Designator=R1(RESC1206(3216)_L)
+Added Component: Designator=RESET(SPST-2)
+Added Component: Designator=SPI(HDR1X3H)
+Added Component: Designator=SWORD_RX(PIN1)
+Added Component: Designator=U?(SPDIP300-SP28)
+Added Pin To Net: NetName=NetACCEL_1 Pin=ACCEL-1
+Added Pin To Net: NetName=NetACCEL_1 Pin=U?-4
+Added Net: Name=NetACCEL_1
+Added Pin To Net: NetName=NetACCEL_2 Pin=ACCEL-2
+Added Pin To Net: NetName=NetACCEL_2 Pin=U?-5
+Added Net: Name=NetACCEL_2
+Added Pin To Net: NetName=NetACCEL_3 Pin=ACCEL-3
+Added Pin To Net: NetName=NetACCEL_3 Pin=U?-7
+Added Net: Name=NetACCEL_3
+Added Pin To Net: NetName=NetAUDIO_1 Pin=AUDIO-1
+Added Pin To Net: NetName=NetAUDIO_1 Pin=U?-23
+Added Net: Name=NetAUDIO_1
+Added Pin To Net: NetName=NetAUDIO_2 Pin=AUDIO-2
+Added Pin To Net: NetName=NetAUDIO_2 Pin=U?-24
+Added Net: Name=NetAUDIO_2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=PWR_HDR-2
+Added Pin To Net: NetName=NetD1_1 Pin=U?-20
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetHEALTH_LED_1 Pin=HEALTH_LED-1
+Added Pin To Net: NetName=NetHEALTH_LED_1 Pin=U?-15
+Added Net: Name=NetHEALTH_LED_1
+Added Pin To Net: NetName=NetHEALTH_LED_2 Pin=HEALTH_LED-2
+Added Pin To Net: NetName=NetHEALTH_LED_2 Pin=U?-16
+Added Net: Name=NetHEALTH_LED_2
+Added Pin To Net: NetName=NetHEALTH_LED_3 Pin=HEALTH_LED-3
+Added Pin To Net: NetName=NetHEALTH_LED_3 Pin=U?-17
+Added Net: Name=NetHEALTH_LED_3
+Added Pin To Net: NetName=NetICSP_HDR_1 Pin=ICSP_HDR-1
+Added Pin To Net: NetName=NetICSP_HDR_1 Pin=PWR_HDR-1
+Added Pin To Net: NetName=NetICSP_HDR_1 Pin=RESET-1
+Added Pin To Net: NetName=NetICSP_HDR_1 Pin=U?-8
+Added Pin To Net: NetName=NetICSP_HDR_1 Pin=U?-19
+Added Net: Name=NetICSP_HDR_1
+Added Pin To Net: NetName=NetICSP_HDR_2 Pin=ICSP_HDR-2
+Added Pin To Net: NetName=NetICSP_HDR_2 Pin=U?-27
+Added Net: Name=NetICSP_HDR_2
+Added Pin To Net: NetName=NetICSP_HDR_3 Pin=ICSP_HDR-3
+Added Pin To Net: NetName=NetICSP_HDR_3 Pin=SPI-3
+Added Pin To Net: NetName=NetICSP_HDR_3 Pin=U?-28
+Added Net: Name=NetICSP_HDR_3
+Added Pin To Net: NetName=NetICSP_HDR_5 Pin=ICSP_HDR-5
+Added Pin To Net: NetName=NetICSP_HDR_5 Pin=R1-1
+Added Pin To Net: NetName=NetICSP_HDR_5 Pin=RESET-2
+Added Pin To Net: NetName=NetICSP_HDR_5 Pin=U?-1
+Added Net: Name=NetICSP_HDR_5
+Added Pin To Net: NetName=NetIR_INOUT_1 Pin=IR_INOUT-1
+Added Pin To Net: NetName=NetIR_INOUT_1 Pin=U?-6
+Added Net: Name=NetIR_INOUT_1
+Added Pin To Net: NetName=NetIR_INOUT_2 Pin=IR_INOUT-2
+Added Pin To Net: NetName=NetIR_INOUT_2 Pin=U?-14
+Added Net: Name=NetIR_INOUT_2
+Added Pin To Net: NetName=NetSPI_1 Pin=SPI-1
+Added Pin To Net: NetName=NetSPI_1 Pin=U?-25
+Added Net: Name=NetSPI_1
+Added Pin To Net: NetName=NetSPI_2 Pin=SPI-2
+Added Pin To Net: NetName=NetSPI_2 Pin=U?-26
+Added Net: Name=NetSPI_2
+Added Pin To Net: NetName=NetSWORD_RX_1 Pin=SWORD_RX-1
+Added Pin To Net: NetName=NetSWORD_RX_1 Pin=U?-3
+Added Net: Name=NetSWORD_RX_1
+Added Class: Name=PIC_Prototyping_Schematic
+Added Room: Name=PIC_Prototyping_Schematic

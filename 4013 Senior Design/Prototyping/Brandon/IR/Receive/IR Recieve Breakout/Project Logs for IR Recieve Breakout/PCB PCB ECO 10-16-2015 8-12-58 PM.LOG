@@ -1,0 +1,54 @@
+Added Component: Designator=HEADER(HDR1X6)
+Added Component: Designator=IR1(HDR1X3)
+Added Component: Designator=IR2(HDR1X3)
+Added Component: Designator=IR3(HDR1X3)
+Added Component: Designator=IR4(HDR1X3)
+Added Component: Designator=NAND(D014_M)
+Added Component: Designator=RGB LED(HDR1X4)
+Added Pin To Net: NetName=NetHEADER_1 Pin=HEADER-1
+Added Pin To Net: NetName=NetHEADER_1 Pin=IR1-3
+Added Pin To Net: NetName=NetHEADER_1 Pin=IR2-3
+Added Pin To Net: NetName=NetHEADER_1 Pin=IR3-3
+Added Pin To Net: NetName=NetHEADER_1 Pin=IR4-3
+Added Pin To Net: NetName=NetHEADER_1 Pin=NAND-14
+Added Net: Name=NetHEADER_1
+Added Pin To Net: NetName=NetHEADER_2 Pin=HEADER-2
+Added Pin To Net: NetName=NetHEADER_2 Pin=IR1-2
+Added Pin To Net: NetName=NetHEADER_2 Pin=IR2-2
+Added Pin To Net: NetName=NetHEADER_2 Pin=IR3-2
+Added Pin To Net: NetName=NetHEADER_2 Pin=IR4-2
+Added Pin To Net: NetName=NetHEADER_2 Pin=NAND-7
+Added Pin To Net: NetName=NetHEADER_2 Pin=RGB LED-2
+Added Net: Name=NetHEADER_2
+Added Pin To Net: NetName=NetHEADER_3 Pin=HEADER-3
+Added Pin To Net: NetName=NetHEADER_3 Pin=NAND-6
+Added Net: Name=NetHEADER_3
+Added Pin To Net: NetName=NetHEADER_4 Pin=HEADER-4
+Added Pin To Net: NetName=NetHEADER_4 Pin=RGB LED-4
+Added Net: Name=NetHEADER_4
+Added Pin To Net: NetName=NetHEADER_5 Pin=HEADER-5
+Added Pin To Net: NetName=NetHEADER_5 Pin=RGB LED-3
+Added Net: Name=NetHEADER_5
+Added Pin To Net: NetName=NetHEADER_6 Pin=HEADER-6
+Added Pin To Net: NetName=NetHEADER_6 Pin=RGB LED-1
+Added Net: Name=NetHEADER_6
+Added Pin To Net: NetName=NetIR1_1 Pin=IR1-1
+Added Pin To Net: NetName=NetIR1_1 Pin=NAND-5
+Added Net: Name=NetIR1_1
+Added Pin To Net: NetName=NetIR2_1 Pin=IR2-1
+Added Pin To Net: NetName=NetIR2_1 Pin=NAND-4
+Added Net: Name=NetIR2_1
+Added Pin To Net: NetName=NetIR3_1 Pin=IR3-1
+Added Pin To Net: NetName=NetIR3_1 Pin=NAND-2
+Added Net: Name=NetIR3_1
+Added Pin To Net: NetName=NetIR4_1 Pin=IR4-1
+Added Pin To Net: NetName=NetIR4_1 Pin=NAND-1
+Added Net: Name=NetIR4_1
+Added Member To Class: ClassName=Schematic Member=Component HEADER Header 6
+Added Member To Class: ClassName=Schematic Member=Component IR1 Header 3
+Added Member To Class: ClassName=Schematic Member=Component IR2 Header 3
+Added Member To Class: ClassName=Schematic Member=Component IR3 Header 3
+Added Member To Class: ClassName=Schematic Member=Component IR4 Header 3
+Added Member To Class: ClassName=Schematic Member=Component NAND SN74F20D
+Added Member To Class: ClassName=Schematic Member=Component RGB LED Header 4
+Added Room: Name=Schematic

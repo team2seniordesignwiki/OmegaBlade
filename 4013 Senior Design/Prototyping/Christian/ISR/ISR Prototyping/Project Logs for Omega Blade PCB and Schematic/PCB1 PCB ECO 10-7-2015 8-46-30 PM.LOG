@@ -1,0 +1,48 @@
+Added Component: Designator=AudioOut(PIN2)
+Added Component: Designator=Battery(HDR1X2)
+Added Component: Designator=Protection(DO-35)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R?(RESC1206(3216)_L)
+Added Component: Designator=R?(RESC1206(3216)_L)
+Added Component: Designator=Regulator(HDR1X3)
+Added Component: Designator=Reprogrammer(HDR1X5)
+Added Component: Designator=Reset Switch(SPST-2)
+Added Component: Designator=U?(SOIC-SO28_N)
+Added Pin To Net: NetName=NetBattery_1 Pin=Battery-1
+Added Pin To Net: NetName=NetBattery_1 Pin=Regulator-3
+Added Net: Name=NetBattery_1
+Added Pin To Net: NetName=NetBattery_2 Pin=Battery-2
+Added Pin To Net: NetName=NetBattery_2 Pin=Regulator-2
+Added Pin To Net: NetName=NetBattery_2 Pin=Reprogrammer-5
+Added Pin To Net: NetName=NetBattery_2 Pin=Reset Switch-1
+Added Pin To Net: NetName=NetBattery_2 Pin=U?-8
+Added Pin To Net: NetName=NetBattery_2 Pin=U?-19
+Added Net: Name=NetBattery_2
+Added Pin To Net: NetName=NetProtection_1 Pin=Protection-1
+Added Pin To Net: NetName=NetProtection_1 Pin=Regulator-1
+Added Pin To Net: NetName=NetProtection_1 Pin=U?-20
+Added Net: Name=NetProtection_1
+Added Pin To Net: NetName=NetProtection_2 Pin=Protection-2
+Added Pin To Net: NetName=NetProtection_2 Pin=R1-2
+Added Net: Name=NetProtection_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=Reprogrammer-1
+Added Pin To Net: NetName=NetR1_1 Pin=Reset Switch-2
+Added Pin To Net: NetName=NetR1_1 Pin=U?-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetReprogrammer_3 Pin=Reprogrammer-3
+Added Pin To Net: NetName=NetReprogrammer_3 Pin=U?-28
+Added Net: Name=NetReprogrammer_3
+Added Pin To Net: NetName=NetReprogrammer_4 Pin=Reprogrammer-4
+Added Pin To Net: NetName=NetReprogrammer_4 Pin=U?-27
+Added Net: Name=NetReprogrammer_4
+Added Member To Class: ClassName=Schematic Member=Component AudioOut Speaker
+Added Member To Class: ClassName=Schematic Member=Component Battery Header 2
+Added Member To Class: ClassName=Schematic Member=Component Protection Diode 1N4148
+Added Member To Class: ClassName=Schematic Member=Component R1 Res1
+Added Member To Class: ClassName=Schematic Member=Component R? 1K 5% 1206(3216)
+Added Member To Class: ClassName=Schematic Member=Component Regulator Header 3
+Added Member To Class: ClassName=Schematic Member=Component Reprogrammer Header 5
+Added Member To Class: ClassName=Schematic Member=Component Reset Switch SW-PB
+Added Member To Class: ClassName=Schematic Member=Component U? PIC16F72-I/SO
+Added Room: Name=Schematic

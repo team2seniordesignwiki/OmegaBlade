@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=Accelerometer-5
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=Accelerometer-6
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=ConnIN-1
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=IRin-1
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=U?-2
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=U?-3
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=U?-5
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=U?-6
+Removed Pin From Net: NetName=NetAccelerometer_4 Pin=U?-7
+Added Pin To Net: NetName=NetAccelerometer_5 Pin=Accelerometer-5
+Added Pin To Net: NetName=NetAccelerometer_5 Pin=U?-5
+Added Net: Name=NetAccelerometer_5
+Added Pin To Net: NetName=NetAccelerometer_6 Pin=Accelerometer-6
+Added Pin To Net: NetName=NetAccelerometer_6 Pin=U?-7
+Added Net: Name=NetAccelerometer_6
+Added Pin To Net: NetName=NetConnIN_1 Pin=ConnIN-1
+Added Pin To Net: NetName=NetConnIN_1 Pin=U?-3
+Added Net: Name=NetConnIN_1
+Added Pin To Net: NetName=NetIRin_1 Pin=IRin-1
+Added Pin To Net: NetName=NetIRin_1 Pin=U?-6
+Added Net: Name=NetIRin_1

@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F87J50 -DL -O11111114 -fo48 -N"D:\Projets Mikroe\PlayerMp3\PlayerMp3.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Projets Mikroe\PlayerMp3\" -IP"D:\Projets Mikroe\PlayerMp3\" "PlayerMp3.c" "Mp3.c" "Fat16.c" "Resource.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_87J50.mcl" "__Lib_SPI_c345d654.mcl" "__Lib_Mmc.mcl" "__Lib_TFT.mcl" "__Lib_TouchPanel_TFT.mcl"	 
+diagnostics: 0	126	All files Preprocessed in 156 ms	 
+diagnostics: 0	122	Compilation Started	mp3.h
+diagnostics: 1151	123	Compiled Successfully	PlayerMp3.c
+diagnostics: 0	122	Compilation Started	mp3.h
+diagnostics: 445	123	Compiled Successfully	Mp3.c
+diagnostics: 0	122	Compilation Started	fat16.h
+diagnostics: 487	123	Compiled Successfully	Fat16.c
+diagnostics: 0	122	Compilation Started	resource.h
+diagnostics: 4048	123	Compiled Successfully	Resource.c
+diagnostics: 0	127	All files Compiled in 873 ms	 
+diagnostics: 0	125	Project Linked Successfully	PlayerMp3.mcppi
+diagnostics: 0	128	Linked in 843 ms	 
+diagnostics: 0	129	Project 'PlayerMp3.mcppi' completed: 1919 ms	 
+diagnostics: 0	103	Finished successfully: 24 août 2011, 12:53:29	PlayerMp3.mcppi

@@ -1,0 +1,268 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Christian\Dropbox\4013 Senior Design\Prototyping\Christian\PCB\LARGE PCB\PCB1.PcbDoc
+Date     : 10/15/2015
+Time     : 4:04:12 PM
+
+Processing Rule : Room Schematic (Bounding Region = (113.665mm, 23.749mm, 441.198mm, 45.339mm) (InComponentClass('Schematic'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :28
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "IRinPWR" (149.098mm,193.929mm)  Top Overlay and 
+                     Arc (158.986mm,194.945mm)  Top Overlay
+   Violation between Text "IRinGND" (149.479mm,198.374mm)  Top Overlay and 
+                     Arc (159.113mm,199.136mm)  Top Overlay
+   Violation between Text "IRout-" (150.622mm,207.518mm)  Top Overlay and 
+                     Arc (158.605mm,207.772mm)  Top Overlay
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Arc (158.732mm,104.14mm)  Top Overlay
+   Violation between Text "HPBLUE" (150.749mm,106.934mm)  Top Overlay and 
+                     Arc (158.478mm,107.696mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Arc (158.986mm,111.76mm)  Top Overlay
+   Violation between Text "HPGND" (151.257mm,110.998mm)  Top Overlay and 
+                     Arc (158.986mm,111.76mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (143.806mm,118.679mm)(144.006mm,118.679mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (142.506mm,118.679mm)(142.706mm,118.679mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (144.006mm,116.779mm)(144.006mm,118.679mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (142.506mm,116.779mm)(142.506mm,118.679mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (142.706mm,118.279mm)(142.706mm,118.679mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (142.506mm,118.279mm)(142.706mm,118.279mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (143.806mm,118.279mm)(144.006mm,118.279mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (143.806mm,118.279mm)(143.806mm,118.679mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (143.552mm,110.429mm)(143.752mm,110.429mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (143.752mm,110.429mm)(143.752mm,112.329mm)  Top Overlay
+   Violation between Text "Regulator" (148.59mm,94.488mm)  Top Overlay and 
+                     Track (151.638mm,93.726mm)(159.258mm,93.726mm)  Top Overlay
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Track (159.382mm,102.74mm)(159.382mm,105.54mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (159.128mm,109.096mm)(161.928mm,109.096mm)  Top Overlay
+   Violation between Text "HPBLUE" (150.749mm,106.934mm)  Top Overlay and 
+                     Track (159.128mm,106.296mm)(159.128mm,109.096mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (159.636mm,110.36mm)(162.436mm,110.36mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (159.636mm,110.36mm)(159.636mm,113.16mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (144.84mm,109.932mm)(144.84mm,110.032mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (145.99mm,109.932mm)(145.99mm,110.032mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "Battery" (143.167mm,97.879mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "IRoutD1" (142.367mm,113.411mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "IRoutR2" (141.554mm,105.562mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "ResetButton" (141.224mm,130.81mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(149.496mm,134.686mm)  Top Overlay
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "HPRED" (150.876mm,99.568mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "HPBLUE" (150.749mm,106.934mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "HPGND" (151.257mm,110.998mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "ResetButton" (141.224mm,130.81mm)  Top Overlay and 
+                     Track (154.796mm,98.486mm)(154.796mm,134.686mm)  Top Overlay
+   Violation between Text "Battery" (143.167mm,97.879mm)  Top Overlay and 
+                     Track (149.496mm,98.486mm)(154.796mm,98.486mm)  Top Overlay
+   Violation between Text "HPBLUE" (150.749mm,106.934mm)  Top Overlay and 
+                     Text "IRoutR2" (141.554mm,105.562mm)  Top Overlay
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Text "HPGND" (151.257mm,110.998mm)  Top Overlay
+Rule Violations :40
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Track (142.494mm,121.577mm)(142.494mm,130.137mm)  Top Overlay and 
+                     Pad ResetButton-1(143.764mm,123.317mm)  Multi-Layer
+   Violation between Track (145.034mm,121.577mm)(145.034mm,130.137mm)  Top Overlay and 
+                     Pad ResetButton-1(143.764mm,123.317mm)  Multi-Layer
+   Violation between Track (142.494mm,121.577mm)(142.494mm,130.137mm)  Top Overlay and 
+                     Pad ResetButton-2(143.764mm,128.397mm)  Multi-Layer
+   Violation between Track (145.034mm,121.577mm)(145.034mm,130.137mm)  Top Overlay and 
+                     Pad ResetButton-2(143.764mm,128.397mm)  Multi-Layer
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Pad HPGREEN-1(160.782mm,104.14mm)  Multi-Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad HPGND-1(161.036mm,111.76mm)  Multi-Layer
+   Violation between Text "ResetButton" (141.224mm,130.81mm)  Top Overlay and 
+                     Pad U?-1(148.336mm,133.096mm)  Multi-Layer
+   Violation between Text "ResetButton" (141.224mm,130.81mm)  Top Overlay and 
+                     Pad U?-2(148.336mm,130.556mm)  Multi-Layer
+   Violation between Text "U?" (146.393mm,126.708mm)  Top Overlay and 
+                     Pad U?-3(148.336mm,128.016mm)  Multi-Layer
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Pad U?-6(148.336mm,120.396mm)  Multi-Layer
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Pad U?-7(148.336mm,117.856mm)  Multi-Layer
+   Violation between Text "IRoutD1" (142.367mm,113.411mm)  Top Overlay and 
+                     Pad U?-8(148.336mm,115.316mm)  Multi-Layer
+   Violation between Text "IRoutD1" (142.367mm,113.411mm)  Top Overlay and 
+                     Pad U?-9(148.336mm,112.776mm)  Multi-Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad U?-10(148.336mm,110.236mm)  Multi-Layer
+   Violation between Text "IRoutR2" (141.554mm,105.562mm)  Top Overlay and 
+                     Pad U?-11(148.336mm,107.696mm)  Multi-Layer
+   Violation between Text "IRoutR2" (141.554mm,105.562mm)  Top Overlay and 
+                     Pad U?-12(148.336mm,105.156mm)  Multi-Layer
+   Violation between Text "Battery" (143.167mm,97.879mm)  Top Overlay and 
+                     Pad U?-14(148.336mm,100.076mm)  Multi-Layer
+   Violation between Text "ResetButton" (141.224mm,130.81mm)  Top Overlay and 
+                     Pad U?-27(155.956mm,130.556mm)  Multi-Layer
+   Violation between Text "HPGND" (151.257mm,110.998mm)  Top Overlay and 
+                     Pad U?-20(155.956mm,112.776mm)  Multi-Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad U?-19(155.956mm,110.236mm)  Multi-Layer
+   Violation between Text "HPGND" (151.257mm,110.998mm)  Top Overlay and 
+                     Pad U?-19(155.956mm,110.236mm)  Multi-Layer
+   Violation between Text "HPBLUE" (150.749mm,106.934mm)  Top Overlay and 
+                     Pad U?-18(155.956mm,107.696mm)  Multi-Layer
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Pad U?-17(155.956mm,105.156mm)  Multi-Layer
+   Violation between Text "HPGREEN" (150.114mm,103.378mm)  Top Overlay and 
+                     Pad U?-16(155.956mm,102.616mm)  Multi-Layer
+   Violation between Text "HPRED" (150.876mm,99.568mm)  Top Overlay and 
+                     Pad U?-15(155.956mm,100.076mm)  Multi-Layer
+   Violation between Track (142.506mm,116.779mm)(142.706mm,116.779mm)  Top Overlay and 
+                     Pad IRoutD2-1(143.256mm,116.554mm)  Top Layer
+   Violation between Track (143.806mm,116.779mm)(144.006mm,116.779mm)  Top Overlay and 
+                     Pad IRoutD2-1(143.256mm,116.554mm)  Top Layer
+   Violation between Track (143.806mm,118.279mm)(143.806mm,118.679mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (143.806mm,118.279mm)(144.006mm,118.279mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (142.506mm,118.279mm)(142.706mm,118.279mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (142.706mm,118.279mm)(142.706mm,118.679mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (142.506mm,118.679mm)(142.706mm,118.679mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (143.806mm,118.679mm)(144.006mm,118.679mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Text "IRoutD2" (141.859mm,118.618mm)  Top Overlay and 
+                     Pad IRoutD2-2(143.256mm,118.904mm)  Top Layer
+   Violation between Track (143.552mm,110.429mm)(143.752mm,110.429mm)  Top Overlay and 
+                     Pad IRoutD1-1(143.002mm,110.204mm)  Top Layer
+   Violation between Track (142.252mm,110.429mm)(142.452mm,110.429mm)  Top Overlay and 
+                     Pad IRoutD1-1(143.002mm,110.204mm)  Top Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad IRoutD1-1(143.002mm,110.204mm)  Top Layer
+   Violation between Track (143.552mm,111.929mm)(143.552mm,112.329mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (143.552mm,111.929mm)(143.752mm,111.929mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (142.452mm,111.929mm)(142.452mm,112.329mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (143.552mm,112.329mm)(143.752mm,112.329mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (142.252mm,111.929mm)(142.452mm,111.929mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (142.252mm,112.329mm)(142.452mm,112.329mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Text "IRoutD1" (142.367mm,113.411mm)  Top Overlay and 
+                     Pad IRoutD1-2(143.002mm,112.554mm)  Top Layer
+   Violation between Track (145.99mm,109.932mm)(145.99mm,110.032mm)  Top Overlay and 
+                     Pad DecouplingCap-1(145.415mm,109.182mm)  Top Layer
+   Violation between Track (144.84mm,109.932mm)(144.84mm,110.032mm)  Top Overlay and 
+                     Pad DecouplingCap-1(145.415mm,109.182mm)  Top Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad DecouplingCap-1(145.415mm,109.182mm)  Top Layer
+   Violation between Track (145.99mm,109.932mm)(145.99mm,110.032mm)  Top Overlay and 
+                     Pad DecouplingCap-2(145.415mm,110.782mm)  Top Layer
+   Violation between Track (144.84mm,109.932mm)(144.84mm,110.032mm)  Top Overlay and 
+                     Pad DecouplingCap-2(145.415mm,110.782mm)  Top Layer
+   Violation between Text "DecouplingCap" (143.129mm,109.728mm)  Top Overlay and 
+                     Pad DecouplingCap-2(145.415mm,110.782mm)  Top Layer
+Rule Violations :50
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.5mm) (Max=0.5mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.508mm) (All),(All)
+   Violation between Region (0 hole(s)) Top Layer and 
+                     Pad IRoutTrans-1(157.583mm,161.874mm)  Top Layer
+   Violation between Region (0 hole(s)) Top Layer and 
+                     Pad IRoutTrans-3(154.583mm,161.874mm)  Top Layer
+   Violation between Region (0 hole(s)) Top Layer and 
+                     Track (157.583mm,153.891mm)(157.583mm,161.874mm)  Top Layer
+Rule Violations :3
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetIRout+_1 Between Pad IRoutTrans-2 (156.083,161.274mm) And Pad IRoutTrans-2 (156.083,161.974mm)
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 122
+Time Elapsed        : 00:00:01

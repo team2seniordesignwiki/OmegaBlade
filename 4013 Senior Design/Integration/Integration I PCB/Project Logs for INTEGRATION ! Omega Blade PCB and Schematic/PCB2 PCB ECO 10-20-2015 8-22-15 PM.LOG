@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=IRinPIC NewDesignator=IRoutPIC
+Change Net Name : Old Net Name=NetIRinPIC_1 New Net Name=NetIRoutPIC_1
+Added Member To Class: ClassName=Schematic Member=Component IRinGND Plug

@@ -1,0 +1,6 @@
+Change Component Comment : Designator=IRoutR1 Old Comment=1K 5% 1206(3216) New Comment=3.3 5% 1206(3216)
+Added Component: Designator=PIC2IRout(PIN1)
+Added Pin To Net: NetName=NetPIC2IRout_1 Pin=PIC2IRout-1
+Added Pin To Net: NetName=NetPIC2IRout_1 Pin=U?-14
+Added Net: Name=NetPIC2IRout_1
+Added Member To Class: ClassName=Schematic Member=Component PIC2IRout Plug

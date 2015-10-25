@@ -1,0 +1,298 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Christian\Dropbox\4013 Senior Design\Prototyping\Christian\PCB\Integration I PCB\PCB2.PcbDoc
+Date     : 10/21/2015
+Time     : 9:22:14 PM
+
+Processing Rule : Room Schematic (Bounding Region = (0mil, 230mil, 42625mil, 1780mil) (InComponentClass('Schematic'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :96
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetIR LED 1_2 Between Pad IRoutTrans-2 (2310,423.07mil) And Pad IRoutTrans-2 (2310,450.63mil)
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=20mil) (Max=20mil) (Preferred=20mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Track (2101mil,3820mil)(2110mil,3820mil)  Top Overlay and 
+                     Pad ConnPD-2(2060mil,3820mil)  Multi-Layer
+   Violation between Track (2310mil,3820mil)(2319mil,3820mil)  Top Overlay and 
+                     Pad ConnPD-1(2360mil,3820mil)  Multi-Layer
+   Violation between Track (2731.496mil,2160mil)(3068.504mil,2160mil)  Top Overlay and 
+                     Pad TriggerSwing-1(2800mil,2210mil)  Multi-Layer
+   Violation between Track (2731.496mil,2260mil)(3068.504mil,2260mil)  Top Overlay and 
+                     Pad TriggerSwing-1(2800mil,2210mil)  Multi-Layer
+   Violation between Track (2731.496mil,2160mil)(3068.504mil,2160mil)  Top Overlay and 
+                     Pad TriggerSwing-2(3000mil,2210mil)  Multi-Layer
+   Violation between Track (2731.496mil,2260mil)(3068.504mil,2260mil)  Top Overlay and 
+                     Pad TriggerSwing-2(3000mil,2210mil)  Multi-Layer
+   Violation between Track (4121mil,2220mil)(4130mil,2220mil)  Top Overlay and 
+                     Pad Rswing-2(4080mil,2220mil)  Multi-Layer
+   Violation between Track (4330mil,2220mil)(4339mil,2220mil)  Top Overlay and 
+                     Pad Rswing-1(4380mil,2220mil)  Multi-Layer
+   Violation between Track (2810mil,2780mil)(2810mil,2789mil)  Top Overlay and 
+                     Pad Rswing-2(2810mil,2830mil)  Multi-Layer
+   Violation between Track (2810mil,2571mil)(2810mil,2580mil)  Top Overlay and 
+                     Pad Rswing-1(2810mil,2530mil)  Multi-Layer
+   Violation between Text "ResetButton" (1976mil,3012mil)  Top Overlay and 
+                     Pad U?-2(2270mil,3035mil)  Multi-Layer
+   Violation between Text "ResetButton" (1976mil,3012mil)  Top Overlay and 
+                     Pad U?-27(2570mil,3035mil)  Multi-Layer
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Pad Red-1(3720mil,2395mil)  Multi-Layer
+   Violation between Track (1970mil,2616.496mil)(1970mil,2953.504mil)  Top Overlay and 
+                     Pad ResetButton-1(2020mil,2885mil)  Multi-Layer
+   Violation between Track (2070mil,2616.496mil)(2070mil,2953.504mil)  Top Overlay and 
+                     Pad ResetButton-1(2020mil,2885mil)  Multi-Layer
+   Violation between Track (1970mil,2616.496mil)(1970mil,2953.504mil)  Top Overlay and 
+                     Pad ResetButton-2(2020mil,2685mil)  Multi-Layer
+   Violation between Track (2070mil,2616.496mil)(2070mil,2953.504mil)  Top Overlay and 
+                     Pad ResetButton-2(2020mil,2685mil)  Multi-Layer
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Pad PIC2RED-1(3320mil,2390mil)  Multi-Layer
+   Violation between Text "TriggerSwing" (2760mil,2310mil)  Top Overlay and 
+                     Pad PIC2RED-1(3320mil,2390mil)  Multi-Layer
+   Violation between Track (2040.472mil,607.402mil)(2048.346mil,607.402mil)  Top Overlay and 
+                     Pad IRoutD1-1(2070mil,616.26mil)  Top Layer
+   Violation between Track (2091.654mil,607.402mil)(2099.528mil,607.402mil)  Top Overlay and 
+                     Pad IRoutD1-1(2070mil,616.26mil)  Top Layer
+   Violation between Track (2040.472mil,548.346mil)(2048.346mil,548.346mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2091.654mil,548.346mil)(2099.528mil,548.346mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2048.346mil,532.598mil)(2048.346mil,548.346mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2040.472mil,532.598mil)(2048.346mil,532.598mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2091.654mil,532.598mil)(2091.654mil,548.346mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2091.654mil,532.598mil)(2099.528mil,532.598mil)  Top Overlay and 
+                     Pad IRoutD1-2(2070mil,523.74mil)  Top Layer
+   Violation between Track (2257.402mil,755.472mil)(2257.402mil,763.346mil)  Top Overlay and 
+                     Pad IRoutD2-1(2266.26mil,785mil)  Top Layer
+   Violation between Track (2257.402mil,806.654mil)(2257.402mil,814.528mil)  Top Overlay and 
+                     Pad IRoutD2-1(2266.26mil,785mil)  Top Layer
+   Violation between Track (2182.598mil,755.472mil)(2182.598mil,763.346mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Track (2182.598mil,763.346mil)(2198.346mil,763.346mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Track (2198.346mil,755.472mil)(2198.346mil,763.346mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Track (2182.598mil,806.654mil)(2182.598mil,814.528mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Track (2198.346mil,806.654mil)(2198.346mil,814.528mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Track (2182.598mil,806.654mil)(2198.346mil,806.654mil)  Top Overlay and 
+                     Pad IRoutD2-2(2173.74mil,785mil)  Top Layer
+   Violation between Text "IRoutR2" (1520mil,685mil)  Top Overlay and 
+                     Pad IRoutR2-1(1920mil,727.914mil)  Top Layer
+   Violation between Track (1397.362mil,2283.032mil)(1397.362mil,2286.968mil)  Top Overlay and 
+                     Pad DecouplingCap-1(1420mil,2316.496mil)  Top Layer
+   Violation between Track (1442.638mil,2283.032mil)(1442.638mil,2286.968mil)  Top Overlay and 
+                     Pad DecouplingCap-1(1420mil,2316.496mil)  Top Layer
+   Violation between Track (1397.362mil,2283.032mil)(1397.362mil,2286.968mil)  Top Overlay and 
+                     Pad DecouplingCap-2(1420mil,2253.504mil)  Top Layer
+   Violation between Track (1442.638mil,2283.032mil)(1442.638mil,2286.968mil)  Top Overlay and 
+                     Pad DecouplingCap-2(1420mil,2253.504mil)  Top Layer
+Rule Violations :40
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "PIC2StripClk" (1270mil,4390mil)  Top Overlay and 
+                     Arc (1919.291mil,4410mil)  Top Overlay
+   Violation between Text "AccY" (300mil,4280mil)  Top Overlay and 
+                     Arc (360mil,4260.709mil)  Top Overlay
+   Violation between Text "PIC2IRin" (3020mil,1485mil)  Top Overlay and 
+                     Arc (3439.291mil,1485mil)  Top Overlay
+   Violation between Text "IRoutPIC" (1820mil,985mil)  Top Overlay and 
+                     Arc (2239.291mil,985mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Arc (3239.291mil,2390mil)  Top Overlay
+   Violation between Text "AudioGND" (180mil,1550mil)  Top Overlay and 
+                     Track (204.882mil,1614.882mil)(315.118mil,1614.882mil)  Top Overlay
+   Violation between Text "AudioGND" (180mil,1550mil)  Top Overlay and 
+                     Track (204.882mil,1614.882mil)(204.882mil,1725.118mil)  Top Overlay
+   Violation between Text "AudioGND" (180mil,1550mil)  Top Overlay and 
+                     Track (364.882mil,1624.882mil)(475.118mil,1624.882mil)  Top Overlay
+   Violation between Text "AudioGND" (180mil,1550mil)  Top Overlay and 
+                     Track (475.118mil,1624.882mil)(475.118mil,1735.118mil)  Top Overlay
+   Violation between Text "AudioGND" (180mil,1550mil)  Top Overlay and 
+                     Track (364.882mil,1624.882mil)(364.882mil,1735.118mil)  Top Overlay
+   Violation between Text "ResetButton" (1976mil,3012mil)  Top Overlay and 
+                     Track (2315.67mil,1772.402mil)(2315.67mil,3197.598mil)  Top Overlay
+   Violation between Text "ResetButton" (1976mil,3012mil)  Top Overlay and 
+                     Track (2524.33mil,1772.402mil)(2524.33mil,3197.598mil)  Top Overlay
+   Violation between Text "AudioTrig1" (680mil,1570mil)  Top Overlay and 
+                     Track (694.882mil,1634.882mil)(805.118mil,1634.882mil)  Top Overlay
+   Violation between Text "PIC2AudTrig1" (240mil,1760mil)  Top Overlay and 
+                     Track (694.882mil,1745.118mil)(805.118mil,1745.118mil)  Top Overlay
+   Violation between Text "AudioTrig1" (680mil,1570mil)  Top Overlay and 
+                     Track (694.882mil,1634.882mil)(694.882mil,1745.118mil)  Top Overlay
+   Violation between Text "PIC2AudTrig1" (240mil,1760mil)  Top Overlay and 
+                     Track (534.882mil,1745.118mil)(645.118mil,1745.118mil)  Top Overlay
+   Violation between Text "PIC2AudTrig1" (240mil,1760mil)  Top Overlay and 
+                     Track (534.882mil,1634.882mil)(534.882mil,1745.118mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Track (3664.882mil,2339.882mil)(3664.882mil,2450.118mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Track (3664.882mil,2339.882mil)(3775.118mil,2339.882mil)  Top Overlay
+   Violation between Text "PIC2IRin" (3020mil,1485mil)  Top Overlay and 
+                     Track (3464.882mil,1429.882mil)(3464.882mil,1540.118mil)  Top Overlay
+   Violation between Text "IRoutPIC" (1820mil,985mil)  Top Overlay and 
+                     Track (2264.882mil,1040.118mil)(2375.118mil,1040.118mil)  Top Overlay
+   Violation between Text "IRoutPIC" (1820mil,985mil)  Top Overlay and 
+                     Track (2264.882mil,929.882mil)(2264.882mil,1040.118mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Track (3264.882mil,2334.882mil)(3375.118mil,2334.882mil)  Top Overlay
+   Violation between Text "TriggerSwing" (2760mil,2310mil)  Top Overlay and 
+                     Track (3264.882mil,2334.882mil)(3375.118mil,2334.882mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Track (3375.118mil,2334.882mil)(3375.118mil,2445.118mil)  Top Overlay
+   Violation between Text "TriggerSwing" (2760mil,2310mil)  Top Overlay and 
+                     Track (3375.118mil,2334.882mil)(3375.118mil,2445.118mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Track (3264.882mil,2334.882mil)(3264.882mil,2445.118mil)  Top Overlay
+   Violation between Text "TriggerSwing" (2760mil,2310mil)  Top Overlay and 
+                     Track (3264.882mil,2334.882mil)(3264.882mil,2445.118mil)  Top Overlay
+   Violation between Text "PIC2GRN" (3239.5mil,1879.5mil)  Top Overlay and 
+                     Track (3264.882mil,1934.882mil)(3375.118mil,1934.882mil)  Top Overlay
+   Violation between Text "PIC2GRN" (3239.5mil,1879.5mil)  Top Overlay and 
+                     Track (3375.118mil,1934.882mil)(3375.118mil,2045.118mil)  Top Overlay
+   Violation between Text "PIC2GRN" (3239.5mil,1879.5mil)  Top Overlay and 
+                     Track (3264.882mil,1934.882mil)(3264.882mil,2045.118mil)  Top Overlay
+   Violation between Text "PIC2HPPWR" (3229mil,2309mil)  Top Overlay and 
+                     Text "TriggerSwing" (2760mil,2310mil)  Top Overlay
+   Violation between Text "PIC2AudioPWR" (110mil,2010mil)  Top Overlay and 
+                     Text "PIC2AudioGND" (220mil,2080mil)  Top Overlay
+   Violation between Text "IRoutGND" (2320mil,1085mil)  Top Overlay and 
+                     Text "IRoutPWR" (2720mil,1085mil)  Top Overlay
+Rule Violations :34
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+
+Violations Detected : 171
+Time Elapsed        : 00:00:02

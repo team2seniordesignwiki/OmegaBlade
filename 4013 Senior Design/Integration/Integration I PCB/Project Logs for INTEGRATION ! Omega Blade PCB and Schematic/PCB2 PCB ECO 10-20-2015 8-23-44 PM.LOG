@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=IRinPWR NewDesignator=IRoutPWR
+Change Net Name : Old Net Name=NetIRinPWR_1 New Net Name=NetIR LED 3_1
+Added Member To Class: ClassName=Schematic Member=Component IRoutPWR Plug

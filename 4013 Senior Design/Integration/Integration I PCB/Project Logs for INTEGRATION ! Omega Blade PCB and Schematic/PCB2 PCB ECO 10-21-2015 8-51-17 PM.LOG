@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=Reset NewDesignator=ResetButton
+Added Component: Designator=P?(HDR1X14)
+Added Component: Designator=P?(HDR1X14)
+Added Member To Class: ClassName=Schematic Member=Component P? Header 14

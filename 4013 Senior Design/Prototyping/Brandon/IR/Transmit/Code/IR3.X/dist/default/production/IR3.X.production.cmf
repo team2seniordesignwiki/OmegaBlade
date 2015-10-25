@@ -1,0 +1,616 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\IR3.X.production.obj
+cinit CODE 0 7F7 7F7 9 2
+text1 CODE 0 6D3 6D3 124 2
+text2 CODE 0 653 653 8 2
+text3 CODE 0 65B 65B 32 2
+maintext CODE 0 68D 68D 46 2
+cstackCOMMON COMMON 1 70 70 D 1
+bssBANK0 BANK0 1 20 20 2 1
+stringtext STRCODE 0 800 800 E0 2
+idataBANK0 CODE 0 652 652 1 2
+dataBANK0 BANK0 1 22 22 1 1
+bssCOMMON COMMON 1 7D 7D 1 1
+$C:\Users\Brandon\AppData\Local\Temp\s104.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 2 2 2 2
+config CONFIG 0 8007 8007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 23-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-66F 1
+RAM 6A0-6EF 1
+RAM 720-76F 1
+RAM 7A0-7EF 1
+RAM 820-86F 1
+RAM 8A0-8EF 1
+RAM 920-96F 1
+RAM 9A0-9EF 1
+RAM A20-A6F 1
+RAM AA0-AEF 1
+RAM B20-B6F 1
+RAM BA0-BEF 1
+RAM C20-C6F 1
+RAM CA0-CBF 1
+BANK0 23-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 4-651 2
+CONST 8E0-3FFF 2
+ENTRY 4-651 2
+ENTRY 8E0-3FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-69F 1
+SFR14 700-71F 1
+SFR15 780-79F 1
+SFR16 800-81F 1
+SFR17 880-89F 1
+SFR18 900-91F 1
+SFR19 980-99F 1
+SFR20 A00-A1F 1
+SFR21 A80-A9F 1
+SFR22 B00-B1F 1
+SFR23 B80-B9F 1
+SFR24 C00-C1F 1
+SFR25 C80-C9F 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 2003-27EF 1
+CODE 4-651 2
+CODE 8E0-3FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-66F 1
+BANK13 6A0-6EF 1
+BANK14 720-76F 1
+BANK15 7A0-7EF 1
+BANK16 820-86F 1
+BANK17 8A0-8EF 1
+BANK18 920-96F 1
+BANK19 9A0-9EF 1
+BANK20 A20-A6F 1
+BANK21 AA0-AEF 1
+BANK22 B20-B6F 1
+BANK23 BA0-BEF 1
+BANK24 C20-C6F 1
+BANK25 CA0-CBF 1
+BIGRAM 2000-27EF 1
+EEDATA F000-F0FF 2
+STRCODE 4-651 2
+STRCODE 8E0-3FFF 2
+STRING 4-651 2
+STRING 8E0-3FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\IR3.X.production.obj
+7F7 cinit CODE >1717:C:\Users\Brandon\AppData\Local\Temp\s104.
+7F7 cinit CODE >1720:C:\Users\Brandon\AppData\Local\Temp\s104.
+7F7 cinit CODE >1749:C:\Users\Brandon\AppData\Local\Temp\s104.
+7F8 cinit CODE >1753:C:\Users\Brandon\AppData\Local\Temp\s104.
+7F9 cinit CODE >1754:C:\Users\Brandon\AppData\Local\Temp\s104.
+7FA cinit CODE >1759:C:\Users\Brandon\AppData\Local\Temp\s104.
+7FC cinit CODE >1760:C:\Users\Brandon\AppData\Local\Temp\s104.
+7FD cinit CODE >1766:C:\Users\Brandon\AppData\Local\Temp\s104.
+7FD cinit CODE >1768:C:\Users\Brandon\AppData\Local\Temp\s104.
+7FE cinit CODE >1769:C:\Users\Brandon\AppData\Local\Temp\s104.
+65B text3 CODE >10:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+65B text3 CODE >12:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+65D text3 CODE >13:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+65F text3 CODE >14:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+660 text3 CODE >15:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+661 text3 CODE >16:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+662 text3 CODE >17:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+663 text3 CODE >18:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+664 text3 CODE >19:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+665 text3 CODE >20:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+667 text3 CODE >21:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+669 text3 CODE >22:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+66B text3 CODE >23:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+66C text3 CODE >24:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+66E text3 CODE >25:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+66F text3 CODE >26:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+670 text3 CODE >27:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+671 text3 CODE >28:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+673 text3 CODE >29:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+675 text3 CODE >30:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+677 text3 CODE >31:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+679 text3 CODE >32:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+67A text3 CODE >33:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+67B text3 CODE >34:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+67C text3 CODE >35:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+67D text3 CODE >36:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+67E text3 CODE >37:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+680 text3 CODE >38:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+681 text3 CODE >39:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+682 text3 CODE >40:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+684 text3 CODE >41:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+686 text3 CODE >42:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+68B text3 CODE >43:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+68C text3 CODE >51:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+653 text2 CODE >38:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+653 text2 CODE >40:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+658 text2 CODE >43:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+659 text2 CODE >46:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+65A text2 CODE >47:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6D3 text1 CODE >53:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6D4 text1 CODE >56:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6D7 text1 CODE >58:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6E4 text1 CODE >61:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6E6 text1 CODE >62:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6ED text1 CODE >63:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6EF text1 CODE >64:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6F8 text1 CODE >67:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+6FA text1 CODE >68:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+703 text1 CODE >69:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+705 text1 CODE >70:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+70E text1 CODE >71:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+710 text1 CODE >72:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+719 text1 CODE >73:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+71B text1 CODE >74:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+724 text1 CODE >77:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+726 text1 CODE >78:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+72F text1 CODE >79:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+731 text1 CODE >58:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+736 text1 CODE >83:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+739 text1 CODE >85:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+746 text1 CODE >88:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+748 text1 CODE >89:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+74F text1 CODE >90:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+751 text1 CODE >91:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+75A text1 CODE >94:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+75C text1 CODE >95:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+765 text1 CODE >96:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+767 text1 CODE >97:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+770 text1 CODE >98:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+772 text1 CODE >99:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+77B text1 CODE >100:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+77D text1 CODE >101:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+786 text1 CODE >104:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+788 text1 CODE >105:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+791 text1 CODE >106:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+793 text1 CODE >85:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+798 text1 CODE >111:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7A5 text1 CODE >114:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7A7 text1 CODE >115:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7AE text1 CODE >116:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7B0 text1 CODE >117:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7B9 text1 CODE >120:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7BB text1 CODE >121:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7C4 text1 CODE >122:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7C6 text1 CODE >123:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7CF text1 CODE >124:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7D1 text1 CODE >125:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7DA text1 CODE >126:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7DC text1 CODE >127:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7E5 text1 CODE >130:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7E7 text1 CODE >131:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7F0 text1 CODE >132:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+7F2 text1 CODE >111:C:\Users\Brandon\MPLABXProjects\IR3.X\function_stubs.c
+68D maintext CODE >19:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+68D maintext CODE >21:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+690 maintext CODE >22:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+693 maintext CODE >24:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+693 maintext CODE >25:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+69B maintext CODE >26:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6A8 maintext CODE >27:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6B0 maintext CODE >28:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6BD maintext CODE >29:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6C5 maintext CODE >30:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+6D2 maintext CODE >24:C:\Users\Brandon\MPLABXProjects\IR3.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 3 0 ABS 0 - dist/default/production\IR3.X.production.obj
+output_ir@i 73 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 8009 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__size_of_init_pic 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lstringtext 0 0 ABS 0 stringtext -
+__Hstrings 0 0 ABS 0 strings -
+_PIE4 94 0 ABS 0 - dist/default/production\IR3.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\Brandon\AppData\Local\Temp\s104.obj
+_main D1A 0 CODE 0 maintext dist/default/production\IR3.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+start 4 0 CODE 0 init C:\Users\Brandon\AppData\Local\Temp\s104.obj
+ttemp 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__end_of_output_ir FEE 0 CODE 0 text1 dist/default/production\IR3.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__size_of_output_ir 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+ttemp0 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\IR3.X.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_output_ir DA6 0 CODE 0 text1 dist/default/production\IR3.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Brandon\AppData\Local\Temp\s104.obj
+output_ir@pkt_type 79 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_init_pic CA6 0 CODE 0 text2 dist/default/production\IR3.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\IR3.X.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_init_pic CB6 0 CODE 0 text2 dist/default/production\IR3.X.production.obj
+__size_of_init_ir 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+start_initialization FEE 0 CODE 0 cinit dist/default/production\IR3.X.production.obj
+_OSCCON 99 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_TRISCbits 8E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__end_of_init_ir D1A 0 CODE 0 text3 dist/default/production\IR3.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Brandon\AppData\Local\Temp\s104.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 ABS 0 bank13 -
+__Hbank14 0 0 ABS 0 bank14 -
+__Hbank15 0 0 ABS 0 bank15 -
+__Hbank16 0 0 ABS 0 bank16 -
+__Hbank17 0 0 ABS 0 bank17 -
+__Hbank18 0 0 ABS 0 bank18 -
+__Hbank19 0 0 ABS 0 bank19 -
+__Hbank20 0 0 ABS 0 bank20 -
+__Hbank21 0 0 ABS 0 bank21 -
+__Hbank22 0 0 ABS 0 bank22 -
+__Hbank23 0 0 ABS 0 bank23 -
+__Hbank24 0 0 ABS 0 bank24 -
+__Hbank25 0 0 ABS 0 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit FEE 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_P1MDLBIT 7495 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 4 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 4 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+output_ir@i_71 75 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+output_ir@i_72 77 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__S0 8009 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_PSMC1ASDC E9D 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1ASDL E9E 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1ASDS E9F 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1BLKF EAC 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1BLKR EAB 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1BLNK E97 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1FEBS E99 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1REBS E98 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1STR0 EAE 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1STR1 EAF 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1SYNC E93 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lintentry 4 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Brandon\AppData\Local\Temp\s104.obj
+__pdataBANK0 22 0 BANK0 1 dataBANK0 dist/default/production\IR3.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 ABS 0 bank13 -
+__Lbank14 0 0 ABS 0 bank14 -
+__Lbank15 0 0 ABS 0 bank15 -
+__Lbank16 0 0 ABS 0 bank16 -
+__Lbank17 0 0 ABS 0 bank17 -
+__Lbank18 0 0 ABS 0 bank18 -
+__Lbank19 0 0 ABS 0 bank19 -
+__Lbank20 0 0 ABS 0 bank20 -
+__Lbank21 0 0 ABS 0 bank21 -
+__Lbank22 0 0 ABS 0 bank22 -
+__Lbank23 0 0 ABS 0 bank23 -
+__Lbank24 0 0 ABS 0 bank24 -
+__Lbank25 0 0 ABS 0 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext D1A 0 CODE 0 maintext dist/default/production\IR3.X.production.obj
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_VCAPEN$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+output_ir@amount 70 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+stackhi 27EF 0 ABS 0 - C:\Users\Brandon\AppData\Local\Temp\s104.obj
+stacklo 2003 0 ABS 0 - C:\Users\Brandon\AppData\Local\Temp\s104.obj
+_PSMC1CLK E94 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1CON E91 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1DBF EAA 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1DBR EA9 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1DCH EA4 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1DCL EA3 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1DCS E9B 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1FFA EAD 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1INT EA0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1MDL E92 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1OEN E95 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PHH EA2 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PHL EA1 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PHS E9A 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1POL E96 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PRH EA6 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PRL EA5 0 ABS 0 - dist/default/production\IR3.X.production.obj
+_PSMC1PRS E9C 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 7D 0 COMMON 1 bssCOMMON dist/default/production\IR3.X.production.obj
+__Lend_init 4 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FFA 0 CODE 0 cinit dist/default/production\IR3.X.production.obj
+__Hintentry 4 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+_init_ir CB6 0 CODE 0 text3 dist/default/production\IR3.X.production.obj
+__ptext1 DA6 0 CODE 0 text1 dist/default/production\IR3.X.production.obj
+__ptext2 CA6 0 CODE 0 text2 dist/default/production\IR3.X.production.obj
+__ptext3 CB6 0 CODE 0 text3 dist/default/production\IR3.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__pstringtext 1000 0 STRCODE 0 stringtext dist/default/production\IR3.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__CFG_LPBOR$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__end_of__initialization FFA 0 CODE 0 cinit dist/default/production\IR3.X.production.obj
+__Lfunctab 0 0 CODE 0 functab -
+__pidataBANK0 CA4 0 CODE 0 idataBANK0 dist/default/production\IR3.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+__CFG_PLLEN$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\IR3.X.production.obj
+__Hend_init 8 0 CODE 0 end_init -
+__end_of_main DA6 0 CODE 0 maintext dist/default/production\IR3.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__initialization FEE 0 CODE 0 cinit dist/default/production\IR3.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\IR3.X.production.obj
+__Hstringtext 0 0 ABS 0 stringtext -
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\IR3.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7F7 FEE 9 2
+text1 0 6D3 DA6 124 2
+text2 0 653 CA6 8 2
+text3 0 65B CB6 32 2
+maintext 0 68D D1A 46 2
+cstackCOMMON 1 70 70 E 1
+reset_vec 0 0 0 4 2
+bssBANK0 1 20 20 3 1
+stringtext 0 800 1000 E0 2
+idataBANK0 0 652 CA4 1 2
+config 0 8007 1000E 2 2

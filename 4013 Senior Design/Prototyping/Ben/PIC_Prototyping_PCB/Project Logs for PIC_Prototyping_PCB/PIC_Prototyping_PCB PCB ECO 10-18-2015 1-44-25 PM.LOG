@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetPIC_17 Pin=UART-1
+Removed Pin From Net: NetName=NetPIC_18 Pin=UART-2
+Removed Pin From Net: NetName=NetICSP_1 Pin=UART-3
+Change Component DesignItemId : Designator=UART Old DesignItemId=Header 3 New DesignItemId=Header 4
+Change Component Footprint: Designator=UART Old Footprint=HDR1X3 New Footprint=HDR1X4
+Change Component Comment : Designator=UART Old Comment=Header 3 New Comment=Header 4
+Added Pin To Net: NetName=NetICSP_1 Pin=UART-1
+Added Pin To Net: NetName=NetPIC_17 Pin=UART-2
+Added Pin To Net: NetName=NetD1_1 Pin=UART-3
+Added Pin To Net: NetName=NetPIC_18 Pin=UART-4

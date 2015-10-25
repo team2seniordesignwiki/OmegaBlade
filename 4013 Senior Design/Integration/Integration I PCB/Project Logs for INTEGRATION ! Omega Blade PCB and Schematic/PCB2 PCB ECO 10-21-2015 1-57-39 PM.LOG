@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=DecouplingCap-2
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=PIC2GND-1
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=PIC2HPGND-1
+Removed Pin From Net: NetName=NetPIC2AccelPWR_1 Pin=Protection-1
+Removed Pin From Net: NetName=NetReprogrammer_1 Pin=Reprogrammer-1
+Removed Pin From Net: NetName=NetPIC2AccelPWR_1 Pin=Reprogrammer-2
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=Reprogrammer-3
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=ResetButton-2
+Removed Pin From Net: NetName=NetBlu_1 Pin=RGB Health LED-3
+Removed Pin From Net: NetName=NetGrn_1 Pin=RGB Health LED-4
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=U?-8
+Removed Pin From Net: NetName=NetPIC2BLU_1 Pin=U?-16
+Removed Pin From Net: NetName=NetPIC2GRN_1 Pin=U?-17
+Removed Pin From Net: NetName=NetDecouplingCap_2 Pin=U?-19
+Change Component Designator: OldDesignator=Gnd NewDesignator=PWR
+Change Component Designator: OldDesignator=PIC2HPGND NewDesignator=PIC2HPPWR
+Added Component: Designator=GNDref(PIN1)
+Added Component: Designator=Rswing(AXIAL-0.3)
+Added Component: Designator=Rswing(AXIAL-0.3)
+Added Component: Designator=TriggerSwing(SPST-2)
+Added Pin To Net: NetName=NetDecouplingCap_2 Pin=GNDref-1
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=PIC2HPPWR-1
+Added Pin To Net: NetName=NetDecouplingCap_1 Pin=Protection-1
+Added Pin To Net: NetName=NetDecouplingCap_1 Pin=Reprogrammer-2
+Added Pin To Net: NetName=NetGrn_1 Pin=RGB Health LED-3
+Added Pin To Net: NetName=NetBlu_1 Pin=RGB Health LED-4
+Added Pin To Net: NetName=NetPIC2AccelPWR_1 Pin=TriggerSwing-2
+Added Pin To Net: NetName=NetPIC2GRN_1 Pin=U?-16
+Added Pin To Net: NetName=NetPIC2BLU_1 Pin=U?-17
+Change Net Name : Old Net Name=NetDecouplingCap_2 New Net Name=NetGNDref_1
+Change Net Name : Old Net Name=NetReprogrammer_1 New Net Name=NetResetButton_1
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=PIC2GND-1
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=Reprogrammer-1
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=Reprogrammer-3
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=ResetButton-2
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=Rswing-2
+Added Pin To Net: NetName=NetPIC2GND_1 Pin=U?-19
+Added Net: Name=NetPIC2GND_1
+Added Pin To Net: NetName=NetPWR_1 Pin=PWR-1
+Added Pin To Net: NetName=NetPWR_1 Pin=Rswing-2
+Added Net: Name=NetPWR_1
+Added Pin To Net: NetName=NetRGB Health LED_2 Pin=RGB Health LED-2
+Added Pin To Net: NetName=NetRGB Health LED_2 Pin=Rswing-1
+Added Net: Name=NetRGB Health LED_2
+Added Pin To Net: NetName=NetRswing_1 Pin=Rswing-1
+Added Pin To Net: NetName=NetRswing_1 Pin=TriggerSwing-1
+Added Pin To Net: NetName=NetRswing_1 Pin=U?-18
+Added Net: Name=NetRswing_1
+Added Member To Class: ClassName=Schematic Member=Component GNDref Plug
+Added Member To Class: ClassName=Schematic Member=Component Rswing Res1
+Added Member To Class: ClassName=Schematic Member=Component TriggerSwing SW-SPST

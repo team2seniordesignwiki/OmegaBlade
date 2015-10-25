@@ -1,0 +1,22 @@
+Added Component: Designator=U?(D014_L)
+Added Component: Designator=U?(D014_N)
+Added Component: Designator=U?(D014_M)
+Added Component: Designator=U?(D014_L)
+Added Component: Designator=U?(D014_N)
+Added Component: Designator=U?(D014_M)
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Net: Name=GND
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Pin To Net: NetName=VCC Pin=U?-14
+Added Net: Name=VCC
+Added Class: Name=Schematic
+Added Room: Name=Schematic

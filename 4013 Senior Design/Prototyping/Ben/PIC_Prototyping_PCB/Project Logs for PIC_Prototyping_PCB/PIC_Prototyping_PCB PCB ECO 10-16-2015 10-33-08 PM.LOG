@@ -1,0 +1,13 @@
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component ACCEL Header 3
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component AUDIO Header 2
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component D1 1N4148
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component ICSP Header 5
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component IR Header 2
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component LED Header 2
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component PIC PIC16F72-I/SP
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component POWER Header 2
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component R1 Jumper 1206(3216)
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component RESET SW-SPST
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component SPI Header 3
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component SWORD_RX Socket
+Added Member To Class: ClassName=PIC_Prototyping_Schematic Member=Component USART Header 2

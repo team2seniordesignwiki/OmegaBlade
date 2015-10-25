@@ -1,0 +1,12 @@
+Added Component: Designator=AudioGND2(PIN1)
+Added Component: Designator=AudioGND3(PIN1)
+Added Component: Designator=AudioGND4(PIN1)
+Added Pin To Net: NetName=NetAudioGND2_1 Pin=AudioGND2-1
+Added Pin To Net: NetName=NetAudioGND2_1 Pin=AudioGND3-1
+Added Pin To Net: NetName=NetAudioGND2_1 Pin=AudioGND4-1
+Added Pin To Net: NetName=NetAudioGND2_1 Pin=AudioGND-1
+Added Pin To Net: NetName=NetAudioGND2_1 Pin=AudioPWRGND-2
+Added Net: Name=NetAudioGND2_1
+Added Member To Class: ClassName=Schematic Member=Component AudioGND2 Plug
+Added Member To Class: ClassName=Schematic Member=Component AudioGND3 Plug
+Added Member To Class: ClassName=Schematic Member=Component AudioGND4 Plug

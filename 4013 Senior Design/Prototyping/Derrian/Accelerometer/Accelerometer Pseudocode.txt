@@ -1,0 +1,18 @@
+bool determine_sword_was_swung()
+{
+	
+	For (i=0; flag==false || i <100 ; i++)
+	//Read voltage from x and Y pins
+
+	// Convert to X and Coordinates if needed
+
+	// Convert X any Y to G force
+
+	// if G force is past levels
+	{
+	set bool variable to true
+
+	}	
+
+
+}

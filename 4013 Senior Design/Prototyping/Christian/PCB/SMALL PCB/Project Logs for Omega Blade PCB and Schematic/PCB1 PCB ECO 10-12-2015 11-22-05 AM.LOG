@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=U? Old DesignItemId=PIC16F72-I/SO New DesignItemId=PIC16F72-I/SP
+Change Component Footprint: Designator=U? Old Footprint=SOIC-SO28_N New Footprint=SPDIP300-SP28
+Change Component Comment : Designator=U? Old Comment=PIC16F72-I/SO New Comment=PIC16F72-I/SP
+Added Member To Class: ClassName=Schematic Member=Component IRoutR1 1K 5% 1206(3216)

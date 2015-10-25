@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetAccelerometer_2 Pin=Resetbutton-1
+Removed Pin From Net: NetName=NetIRout-_1 Pin=Resetbutton-4
+Removed Member From Class: ClassName=Schematic Member=S?
+Change Component Designator: OldDesignator=S? NewDesignator=ResetButton
+Added Pin To Net: NetName=NetAccelerometer_2 Pin=ResetButton-1
+Added Pin To Net: NetName=NetIRout-_1 Pin=ResetButton-2

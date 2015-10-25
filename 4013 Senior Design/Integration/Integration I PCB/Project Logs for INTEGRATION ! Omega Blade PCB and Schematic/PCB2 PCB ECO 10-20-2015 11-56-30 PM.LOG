@@ -1,0 +1,36 @@
+Added Component: Designator=AlphaConn(HDR1X3)
+Added Component: Designator=BetaAlpha(HDR1X3)
+Added Component: Designator=BetaDelta(HDR1X3)
+Added Component: Designator=ConnGND(PIN1)
+Added Component: Designator=ConnIn(PIN1)
+Added Component: Designator=ConnPWR(PIN1)
+Added Component: Designator=DeltaBeta(HDR1X3)
+Added Component: Designator=DeltaGamma(HDR1X3)
+Added Component: Designator=GammaConn(HDR1X3)
+Added Pin To Net: NetName=NetAlphaConn_1 Pin=AlphaConn-1
+Added Pin To Net: NetName=NetAlphaConn_1 Pin=AlphaConn-3
+Added Net: Name=NetAlphaConn_1
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=AlphaConn-2
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=BetaAlpha-2
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=BetaDelta-2
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=ConnGND-1
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=DeltaBeta-2
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=DeltaGamma-2
+Added Pin To Net: NetName=NetAlphaConn_2 Pin=GammaConn-2
+Added Net: Name=NetAlphaConn_2
+Added Pin To Net: NetName=NetConnIn_1 Pin=ConnIn-1
+Added Pin To Net: NetName=NetConnIn_1 Pin=GammaConn-1
+Added Net: Name=NetConnIn_1
+Added Pin To Net: NetName=NetConnPWR_1 Pin=ConnPWR-1
+Added Pin To Net: NetName=NetConnPWR_1 Pin=GammaConn-3
+Added Net: Name=NetConnPWR_1
+Added Member To Class: ClassName=Schematic Member=Component AlphaConn Header 3
+Added Member To Class: ClassName=Schematic Member=Component BetaAlpha Header 3
+Added Member To Class: ClassName=Schematic Member=Component BetaDelta Header 3
+Added Member To Class: ClassName=Schematic Member=Component ConnGND Plug
+Added Member To Class: ClassName=Schematic Member=Component ConnIn Plug
+Added Member To Class: ClassName=Schematic Member=Component ConnPWR Plug
+Added Member To Class: ClassName=Schematic Member=Component DeltaBeta Header 3
+Added Member To Class: ClassName=Schematic Member=Component DeltaGamma Header 3
+Added Member To Class: ClassName=Schematic Member=Component GammaConn Header 3
+Added Member To Class: ClassName=Schematic Member=Component PIC2PWR Plug
