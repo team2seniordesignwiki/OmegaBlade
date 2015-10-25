@@ -512,7 +512,7 @@ input::-moz-focus-inner {
  * 2. Improves readability and alignment in all browsers
  */
 textarea {
-  overflow: auto;
+  overflow: scroll;
   /* 1 */
   vertical-align: top;
   /* 2 */
