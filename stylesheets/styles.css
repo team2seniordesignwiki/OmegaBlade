@@ -892,7 +892,11 @@ dt {
 }
 
 section {
+<<<<<<< HEAD
   max-width: 800px;
+=======
+  max-width: 400px;
+>>>>>>> 5ea588b6b8591fc782e4d243c8e970d3af723134
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
