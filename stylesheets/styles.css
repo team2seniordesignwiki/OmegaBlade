@@ -604,12 +604,23 @@ strong {
   font-weight: normal;
 }
 
+/*
 .wrapper {
   max-width: 650px;
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0px;
 }
+*/
+
+/*Modified wrapper for content body*/
+.wrapper {
+  width: 80%;
+  margin: auto;
+  /*position: relative;*/
+  padding: 50px;
+}
+
 
 section img {
   max-width: 100%;
