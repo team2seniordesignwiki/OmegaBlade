@@ -629,7 +629,8 @@ strong {
   position: absolute;
   padding: 0px;
   margin-top: 50px;
-  left: 250px;  
+  left: 250px;
+  display: block;
   /*margin-left: -30%;*/
 }
 
