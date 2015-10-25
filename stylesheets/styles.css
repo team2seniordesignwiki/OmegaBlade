@@ -623,6 +623,14 @@ strong {
   margin-top: 140px;
 }
 
+.wrapperTD {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px;
+  margin-top: 90px;
+}
+
 
 section img {
   max-width: 100%;
