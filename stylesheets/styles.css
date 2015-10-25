@@ -1166,7 +1166,7 @@ section #title .credits.right {
   background: -webkit-linear-gradient(#4F1A4F, #390039);
   background: -moz-linear-gradient(#4F1A4F, #390039);
   background: linear-gradient(#4F1A4F, #390039);
-  border-color: transparent;
+  border-color: #000000;
 }
 /* The arrow indicating a submenu */
 #tDocMenu > ul .has-sub > a::after {
