@@ -625,12 +625,11 @@ strong {
 
 .wrapperTD {
   max-width: 900px;
-  margin: 0 auto;
   position: absolute;
   padding: 0px;
   margin-top: 50px;
   left: 50%;  
-  margin-left: -20%;
+  margin-left: -30%;
 }
 
 .wrapperR {
