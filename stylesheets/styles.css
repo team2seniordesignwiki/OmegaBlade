@@ -631,6 +631,13 @@ strong {
   margin-top: 50px;
 }
 
+.wrapperR {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px;
+  margin-top: 50px;
+}
 
 section img {
   max-width: 100%;
