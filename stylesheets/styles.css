@@ -629,12 +629,14 @@ strong {
   position: absolute;
   padding: 0px;
   margin-top: 50px;
+  left: 50%;  
+  margin-left: -50px;
 }
 
 .wrapperR {
   max-width: 900px;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   padding: 0px;
   margin-top: 50px;
 }
