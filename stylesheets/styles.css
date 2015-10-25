@@ -630,7 +630,7 @@ strong {
   padding: 0px;
   margin-top: 50px;
   left: 50%;  
-  margin-left: -50px;
+  margin-left: -50%;
 }
 
 .wrapperR {
