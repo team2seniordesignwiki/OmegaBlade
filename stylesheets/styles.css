@@ -791,6 +791,12 @@ dt {
   padding: 0 0 0 0px;
 }
 
+#header img {
+  left: 50px;
+  margin: 0 0 0 0px;
+  padding: 0 0 0 0px;
+}
+
 /*
 #header nav {
   max-width: 650px;
