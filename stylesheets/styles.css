@@ -1263,6 +1263,7 @@ section #title .credits.right {
 }
 
 #grid {
+  margin-top: 140px;
   background: transparent;
   list-style: none;
   font-size: 0px;
