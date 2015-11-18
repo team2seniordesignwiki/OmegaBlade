@@ -1262,7 +1262,7 @@ section #title .credits.right {
   z-index: 1;
 }
 
-.galleryGrid a {
+.galleryGrid img a {
   float: left;
   width: 50%;
   padding-right: 20px;
