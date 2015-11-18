@@ -1268,6 +1268,6 @@ section #title .credits.right {
   padding-right: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
-  margin-top: 150px;
+  margin-top: -150px;
 }
 
